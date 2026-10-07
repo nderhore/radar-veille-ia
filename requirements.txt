@@ -1,0 +1,10 @@
+# Socle (obligatoire)
+anthropic>=1.11      # qualification par LLM (Claude)
+pyyaml>=6.0          # protocole de veille « as code »
+requests>=2.32       # collecte HTTP
+
+# Analyse avancée (optionnel : commande `clusters`)
+scikit-learn>=1.5
+
+# Qualité
+pytest>=8.0
