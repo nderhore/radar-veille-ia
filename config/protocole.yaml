@@ -1,0 +1,222 @@
+meta:
+  version: "1.0.0"
+  owner: "Cellule veille et prospective, direction technique"
+  commanditaire: "Comité de direction (CODIR)"
+  date_revue: "2026-10-07"
+  prochaine_revue: "2027-01-07"
+  changelog:
+    - "1.0.0 (2026-10-07) : version initiale du protocole"
+
+# -----------------------------------------------------------------------------
+# 1. FINALITÉ ET PÉRIMÈTRE
+# -----------------------------------------------------------------------------
+finalite: >
+  Détecter, au plus tôt et de manière reproductible, les technologies d'IA
+  susceptibles de modifier la proposition de valeur, la structure de coûts ou
+  le positionnement concurrentiel de l'organisation, afin d'éclairer les
+  décisions d'investissement, d'expérimentation et de montée en compétences.
+
+perimetre:
+  inclus: ["IA générative", "apprentissage automatique", "infrastructure IA", "régulation de l'IA"]
+  exclus: ["robotique industrielle hors IA", "informatique quantique (radar dédié)"]
+  zones: ["international", "Union européenne", "France"]
+  langues: ["en", "fr"]
+
+# -----------------------------------------------------------------------------
+# 2. AXES DE SURVEILLANCE : KIT (Key Intelligence Topics) et KIQ (Questions)
+#    Chaque axe correspond à un quadrant du radar.
+# -----------------------------------------------------------------------------
+axes:
+  - id: KIT-1
+    quadrant: "Modèles & Techniques"
+    intitule: "Modèles de fondation et architectures d'apprentissage"
+    enjeu: "Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles"
+    kiq:
+      - "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
+      - "KIQ-1.2 : Quand un petit modèle (< 10 Md de paramètres) atteindra-t-il le niveau de nos modèles actuels ?"
+    mots_cles: ["foundation model", "transformer", "mixture of experts", "state space model", "mamba",
+                "small language model", "reasoning model", "test-time compute", "diffusion language model",
+                "world model", "multimodal", "distillation", "reinforcement learning from"]
+    requetes:
+      arxiv: '(cat:cs.CL OR cat:cs.LG) AND (abs:"language model" OR abs:"foundation model")'
+      hackernews: ["LLM architecture", "reasoning model", "small language model", "open weights model"]
+      github: ["llm training", "language model inference"]
+
+  - id: KIT-2
+    quadrant: "Agents & Applications"
+    intitule: "Agents autonomes et automatisation des processus métier"
+    enjeu: "Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée"
+    kiq:
+      - "KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?"
+      - "KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?"
+    mots_cles: ["agent", "agentic", "multi-agent", "tool use", "computer use", "model context protocol",
+                "mcp", "agent-to-agent", "workflow automation", "copilot", "autonomous"]
+    requetes:
+      arxiv: 'cat:cs.AI AND (abs:agent OR abs:agentic OR abs:"tool use")'
+      hackernews: ["AI agent", "agentic", "MCP server", "computer use"]
+      github: ["ai agent", "mcp server", "multi-agent framework"]
+
+  - id: KIT-3
+    quadrant: "Infrastructure & Outillage"
+    intitule: "Infrastructure, inférence, coûts et outillage MLOps/LLMOps"
+    enjeu: "Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients"
+    kiq:
+      - "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
+      - "KIQ-3.2 : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?"
+    mots_cles: ["inference", "quantization", "speculative decoding", "kv cache", "gpu", "accelerator",
+                "on-device", "edge ai", "serving", "vector database", "retrieval-augmented", "rag",
+                "evaluation", "observability", "fine-tuning", "lora"]
+    requetes:
+      arxiv: 'cat:cs.LG AND (abs:inference OR abs:quantization OR abs:"speculative decoding")'
+      hackernews: ["LLM inference", "quantization", "local LLM", "vector database"]
+      github: ["llm inference engine", "llm quantization", "rag framework"]
+
+  - id: KIT-4
+    quadrant: "Confiance & Régulation"
+    intitule: "Sécurité, fiabilité, conformité réglementaire et éthique de l'IA"
+    enjeu: "Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public"
+    kiq:
+      - "KIQ-4.1 : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?"
+      - "KIQ-4.2 : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?"
+    mots_cles: ["ai act", "regulation", "compliance", "prompt injection", "jailbreak", "red teaming",
+                "alignment", "interpretability", "watermark", "privacy", "unlearning", "hallucination",
+                "safety", "governance", "cnil", "gdpr", "rgpd"]
+    requetes:
+      arxiv: '(cat:cs.CR OR cat:cs.CY) AND (abs:"language model" OR abs:LLM)'
+      hackernews: ["AI Act", "prompt injection", "AI safety", "LLM security"]
+      github: ["prompt injection", "llm security", "ai red teaming"]
+
+# -----------------------------------------------------------------------------
+# 3. LISTE DE SURVEILLANCE (« watchlist ») : technologies déjà identifiées,
+#    La détection d'émergence s'applique AUSSI aux termes inconnus (découverte).
+# -----------------------------------------------------------------------------
+watchlist:
+  KIT-1:
+    "Mixture of Experts": ["mixture of experts", "mixture-of-experts", "moe"]
+    "State Space Models": ["state space model", "state-space model", "mamba", "ssm"]
+    "Diffusion LLM": ["diffusion language model", "diffusion llm", "discrete diffusion"]
+    "Test-time compute": ["test-time compute", "test-time scaling", "inference-time scaling"]
+    "Small Language Models": ["small language model", "slm", "tiny model"]
+    "World Models": ["world model", "world models"]
+  KIT-2:
+    "Model Context Protocol": ["model context protocol", "mcp server", "mcp"]
+    "Agent-to-Agent (A2A)": ["agent-to-agent", "a2a protocol", "a2a"]
+    "Computer use": ["computer use", "computer-use", "gui agent", "browser agent"]
+  KIT-3:
+    "Speculative decoding": ["speculative decoding", "draft model"]
+    "Quantization 1-4 bits": ["quantization", "4-bit", "1-bit", "bitnet", "fp4", "int4"]
+    "On-device AI": ["on-device", "edge ai", "local llm", "npu"]
+    "RAG": ["retrieval-augmented generation", "retrieval augmented generation", "rag", "graphrag"]
+  KIT-4:
+    "Prompt injection": ["prompt injection", "indirect prompt injection", "jailbreak"]
+    "Interpretability": ["interpretability", "sparse autoencoder", "mechanistic interpretability"]
+    "Machine unlearning": ["machine unlearning", "unlearning"]
+    "AI Act": ["ai act", "eu ai act", "general-purpose ai", "gpai code of practice"]
+    "Watermarking": ["watermark", "watermarking", "content provenance", "c2pa"]
+
+# Rattachement aux KIQ : chaque sujet du radar répond à une question décisionnelle précise.
+#  - technologies : rattachement explicite des technologies suivies ;
+#  - mots_cles    : rattachement des termes découverts (signaux en anglais), sinon 1re KIQ de l'axe.
+rattachement_kiq:
+  technologies:
+    "Mixture of Experts": KIQ-1.1
+    "State Space Models": KIQ-1.1
+    "Diffusion LLM": KIQ-1.1
+    "Test-time compute": KIQ-1.1
+    "World Models": KIQ-1.1
+    "Small Language Models": KIQ-1.2
+    "Computer use": KIQ-2.1
+    "Model Context Protocol": KIQ-2.2
+    "Agent-to-Agent (A2A)": KIQ-2.2
+    "Speculative decoding": KIQ-3.1
+    "Quantization 1-4 bits": KIQ-3.1
+    "RAG": KIQ-3.1
+    "On-device AI": KIQ-3.2
+    "AI Act": KIQ-4.1
+    "Watermarking": KIQ-4.1
+    "Machine unlearning": KIQ-4.1
+    "Interpretability": KIQ-4.1
+    "Prompt injection": KIQ-4.2
+  mots_cles:
+    KIQ-1.1: [architecture, transformer, mixture, state space, mamba, diffusion, attention, recurrent, world model]
+    KIQ-1.2: [small, distillation, distill, compact, tiny, slm, student]
+    KIQ-2.1: [computer use, workflow, automation, browser, gui, task, enterprise, skill]
+    KIQ-2.2: [protocol, mcp, a2a, interoperab, agent-to-agent, standard, tool-calling]
+    KIQ-3.1: [inference, cost, quantiz, speculative, kv cache, serving, throughput, latency, retrieval]
+    KIQ-3.2: [on-device, edge, local, sovereign, npu, offline, mobile]
+    KIQ-4.1: [ai act, regulat, complian, gdpr, watermark, unlearning, privacy, governance, audit]
+    KIQ-4.2: [attack, injection, jailbreak, adversarial, security, red team, backdoor, rogue]
+
+# -----------------------------------------------------------------------------
+# 4. SOURCES ET COTATION DE FIABILITÉ
+#    A (totalement fiable) … F (non évaluable), convertie en poids [0,1].
+# -----------------------------------------------------------------------------
+cotation_fiabilite: {A: 1.0, B: 0.8, C: 0.6, D: 0.4, E: 0.2, F: 0.3}
+
+sources:
+  arxiv:
+    actif: true
+    type: academic
+    fiabilite: B              # pré-publications non évaluées par les pairs
+    max_resultats_par_axe: 8000
+  hackernews:
+    actif: true
+    type: community
+    fiabilite: C              # signal communautaire, fort bruit, très précoce
+    points_minimum: 5
+    max_resultats_par_requete: 100
+  github:
+    actif: true
+    type: code
+    fiabilite: C              # preuve d'adoption par les développeurs
+    etoiles_minimum: 20
+    max_resultats_par_requete: 50
+  rss:
+    actif: true
+    flux:
+      - {nom: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", type: press, fiabilite: B}
+      - {nom: "Google DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", type: press, fiabilite: B}
+      - {nom: "MIT Technology Review : AI", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", type: press, fiabilite: B}
+      - {nom: "TechCrunch : AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/", type: press, fiabilite: C}
+      - {nom: "CNIL : Actualités", url: "https://www.cnil.fr/fr/rss.xml", type: regulatory, fiabilite: A}
+
+# -----------------------------------------------------------------------------
+# 5. PARAMÈTRES DE DÉTECTION DES RUPTURES
+# -----------------------------------------------------------------------------
+detection:
+  fenetre_recente_jours: 14       # période d'observation (R)
+  fenetre_reference_jours: 60     # période de référence (B), précédant R
+  frequence_minimale: 5           # nb minimal de documents en R pour un terme candidat
+  # Seuil du log-likelihood ratio (ddl = 1) : 3,84 ≈ p < 0,05 ; 6,63 ≈ p < 0,01 ; 10,83 ≈ p < 0,001.
+  # Des dizaines de milliers de n-grammes sont testés à chaque exécution (comparaisons
+  # multiples) : un seuil à 0,05 produirait des centaines de faux positifs.
+  g2_minimal: 10.83
+  nb_sujets_qualifies: 15         # nb de sujets transmis à la qualification
+  part_decouverte: 0.4            # part du radar réservée aux termes découverts (le reste : watchlist)
+  # Pondération de l'indice de rupture (doit sommer à 1)
+  poids:
+    momentum: 0.35                # croissance anormale (G² de Dunning)
+    diffusion: 0.25               # convergence inter-sources (académique, code, communauté, presse)
+    impact: 0.20                  # engagement (étoiles, points) normalisé par source
+    nouveaute: 0.20               # part des mentions récentes dans le total
+
+# -----------------------------------------------------------------------------
+# 6. QUALIFICATION PAR LLM (analyse assistée, validée par un analyste humain)
+# -----------------------------------------------------------------------------
+qualification:
+  modele: "claude-opus-5-5"
+  effort: "high"                  # low | medium | high | xhigh | max
+  max_preuves_par_sujet: 8
+
+# -----------------------------------------------------------------------------
+# 7. RESTITUTION
+# -----------------------------------------------------------------------------
+anneaux:                           # du centre vers l'extérieur
+  - {id: agir, libelle: "Agir", horizon: "0–6 mois", consigne: "Décision d'investissement ou d'industrialisation"}
+  - {id: preparer, libelle: "Préparer", horizon: "6–18 mois", consigne: "Preuve de concept, montée en compétences"}
+  - {id: explorer, libelle: "Explorer", horizon: "18–36 mois", consigne: "Veille approfondie, partenariats de recherche"}
+  - {id: surveiller, libelle: "Surveiller", horizon: "> 36 mois", consigne: "Signal faible, à confirmer"}
+
+diffusion:
+  destinataires: ["CODIR", "Direction technique", "Product managers"]
+  webhook_env: "RADAR_WEBHOOK_URL"  # Slack / Teams / Mattermost (optionnel)
