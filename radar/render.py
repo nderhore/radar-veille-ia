@@ -131,9 +131,18 @@ Qualification : {escape(meta['method'])} · {meta['n_recent']} signaux récents 
 <p class="meta">Forme des points : cercle cerclé = nouveau ; triangle pointe en haut = rapproché du centre ;
 pointe en bas = éloigné ; cercle plein = inchangé.</p>
 <h2>Synthèse</h2>
-<div class="scroll"><table><thead><tr><th>#</th><th>Sujet</th><th>Quadrant</th><th>Anneau</th><th>TRL</th>
-<th>Type</th><th>Impact</th><th>Confiance</th><th>Indice</th><th>Mouvement</th></tr></thead>
+<div class="scroll"><table><thead><tr><th>#</th><th>Sujet</th>
+<th title="Axe de surveillance (KIT) auquel le sujet se rattache">Quadrant</th>
+<th title="Horizon de décision, et non note de qualité">Anneau</th>
+<th title="Maturité technologique de 1 à 9 (ISO 16290), estimée d'après les types de sources">TRL</th>
+<th title="Incrémentale, radicale ou rupture">Type</th>
+<th title="Écho chez les praticiens : engagement (étoiles, points)">Impact</th>
+<th title="Solidité du constat : diversité des types de sources">Confiance</th>
+<th title="Indice de rupture entre 0 et 1, pour trier les sujets d'un même radar">Indice</th>
+<th title="Évolution de l'anneau depuis le radar précédent">Mouvement</th></tr></thead>
 <tbody>{rows}</tbody></table></div>
+<p class="meta">Survoler un en-tête de colonne pour sa définition ; la légende complète figure dans la
+<a href="note-de-veille.html">note de veille</a>.</p>
 <h2>Fiches</h2>
 {cards}
 </main></body></html>"""
@@ -165,11 +174,22 @@ def note_markdown(entries: list[RadarEntry], protocol: dict, meta: dict) -> str:
         items = [e.label for e in entries if e.moved == code]
         lines.append(f"- {title} : {', '.join(items) if items else 'aucun'}")
     lines += ["", "## 3. Tableau du radar", "",
-              "| Sujet | Quadrant | Anneau | TRL | Type | Impact | Confiance | Indice |",
-              "|---|---|---|---|---|---|---|---|"]
+              "| Sujet | Quadrant | Anneau | TRL | Type | Impact | Confiance | Indice | Mouvement |",
+              "|---|---|---|---|---|---|---|---|---|"]
     for e in ranked:
         lines.append(f"| {e.label} | {e.quadrant} | {rings[e.ring]['libelle']} | {e.trl} | "
-                     f"{TYPE_LABELS[e.innovation_type]} | {e.impact}/5 | {e.confidence}/5 | {e.disruption_index:.3f} |")
+                     f"{TYPE_LABELS[e.innovation_type]} | {e.impact}/5 | {e.confidence}/5 | {e.disruption_index:.3f} | "
+                     f"{MOVE_LABELS[e.moved]} |")
+    horizons = ", ".join(f"{r['libelle']} {r['horizon']}" for r in protocol["anneaux"])
+    lines += ["", "Lecture des colonnes :", "",
+              "- **Quadrant** : axe de surveillance (KIT) auquel le sujet se rattache.",
+              f"- **Anneau** : horizon de décision ({horizons}), et non note de qualité.",
+              "- **TRL** : maturité technologique de 1 à 9 (ISO 16290), estimée d'après les types de sources.",
+              "- **Type** : incrémentale (améliore l'existant), radicale (approche nouvelle), rupture (modifie le marché).",
+              "- **Impact** : écho chez les praticiens, mesuré par l'engagement (étoiles, points).",
+              "- **Confiance** : solidité du constat, croissante avec la diversité des types de sources.",
+              "- **Indice** : indice de rupture entre 0 et 1, qui sert à trier les sujets d'un même radar.",
+              "- **Mouvement** : évolution de l'anneau depuis le radar précédent."]
     lines += ["", "## 4. Fiches d'analyse", ""]
     for e in ranked:
         lines += [f"### {e.label}", "",
