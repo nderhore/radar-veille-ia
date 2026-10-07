@@ -62,6 +62,14 @@
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
     {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.08680v1"
+    },
+    {
       "label": "Watermarking",
       "quadrant": 0,
       "ring": 3,
@@ -76,14 +84,6 @@
       "moved": 2,
       "active": true,
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
-    },
-    {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.08680v1"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -134,20 +134,20 @@
       "link": "https://github.com/Justinuse1/pojia-breaker"
     },
     {
-      "label": "Machine unlearning",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.07197v1"
-    },
-    {
       "label": "World Models",
       "quadrant": 3,
       "ring": 3,
       "moved": 2,
       "active": true,
       "link": "http://arxiv.org/abs/2610.08773v1"
+    },
+    {
+      "label": "Machine unlearning",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.07197v1"
     }
   ]
 }

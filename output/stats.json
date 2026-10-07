@@ -1,0 +1,30 @@
+{
+  "signaux_total": 12164,
+  "par_source": {
+    "arxiv": 11251,
+    "hackernews": 575,
+    "github": 232,
+    "rss:Hugging Face Blog": 45,
+    "rss:Google DeepMind Blog": 22,
+    "rss:TechCrunch : AI": 19,
+    "rss:MIT Technology Review : AI": 10,
+    "rss:CNIL : Actualités": 10
+  },
+  "par_axe": {
+    "KIT-1": 5275,
+    "KIT-2": 4232,
+    "KIT-3": 1696,
+    "KIT-4": 902,
+    "hors périmètre": 59
+  },
+  "verdicts": {},
+  "executions": [
+    {
+      "run_at": "2026-10-07T16:00:00.296756+00:00",
+      "collected": 14028,
+      "inserted": 12164,
+      "errors": "[]"
+    }
+  ],
+  "radars_archives": 1
+}
