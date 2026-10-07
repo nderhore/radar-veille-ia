@@ -1,0 +1,101 @@
+# Cycle de veille planifié : collecte, analyse, publication des livrables.
+#
+# Secrets à déclarer (Settings, puis Secrets and variables, puis Actions) :
+#   ANTHROPIC_API_KEY   : qualification par LLM (sinon repli heuristique, tracé dans la note)
+#   RADAR_WEBHOOK_URL   : optionnel, alerte Slack, Teams ou Mattermost
+#
+# GitHub Pages : dans Settings, puis Pages, choisir la source « GitHub Actions ».
+name: radar-veille-ia
+
+on:
+  schedule:
+    - cron: "0 5 * * 1-5"      # collecte et analyse, du lundi au vendredi, 05:00 UTC
+    - cron: "0 6 * * 1"        # analyse par clusters, chaque lundi (préparation de la revue hebdomadaire)
+  workflow_dispatch: {}         # déclenchement manuel
+
+concurrency:                    # jamais deux cycles en parallèle sur la même base
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write           # commit des livrables mis à jour
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      # Mémoire longue : la base SQLite est restaurée puis sauvegardée à chaque cycle.
+      # Un cache inutilisé pendant 7 jours est purgé par GitHub : en production, préférer
+      # un stockage durable (bucket S3 ou GCS, PostgreSQL managé).
+      - uses: actions/cache/restore@v4
+        with:
+          path: radar.db
+          key: radar-db-${{ github.run_id }}
+          restore-keys: radar-db-
+
+      - name: Contrôles qualité
+        run: python -m pytest -q
+
+      - name: Cycle quotidien (collecte et analyse)
+        if: github.event.schedule != '0 6 * * 1'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RADAR_WEBHOOK_URL: ${{ secrets.RADAR_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     # quota de recherche GitHub relevé
+        run: python -m radar run
+
+      - name: Analyse hebdomadaire par clusters
+        if: github.event.schedule == '0 6 * * 1'
+        run: python -m radar clusters
+
+      - name: Indicateurs de pilotage
+        run: mkdir -p output && python -m radar stats > output/stats.json
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: radar.db
+          key: radar-db-${{ github.run_id }}
+
+      # Les livrables font partie du dépôt : leur historique Git est l'historique de la veille.
+      - name: Commit des livrables s'ils ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "Aucun changement dans output/ : rien à publier."
+          else
+            git commit -m "veille : radar du $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Préparation du site
+        run: |
+          mkdir -p site
+          cp output/* site/
+          cp output/radar.html site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  pages:
+    needs: veille
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4
