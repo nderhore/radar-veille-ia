@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-07",
+  "quadrants": [
+    {
+      "name": "Confiance & Régulation"
+    },
+    {
+      "name": "Infrastructure & Outillage"
+    },
+    {
+      "name": "Agents & Applications"
+    },
+    {
+      "name": "Modèles & Techniques"
+    }
+  ],
+  "rings": [
+    {
+      "name": "Agir"
+    },
+    {
+      "name": "Préparer"
+    },
+    {
+      "name": "Explorer"
+    },
+    {
+      "name": "Surveiller"
+    }
+  ],
+  "entries": [
+    {
+      "label": "Decision Models",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://blog.cloudflare.com/clef-decision-models/"
+    },
+    {
+      "label": "Class-Incremental Learning",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.04963v1"
+    },
+    {
+      "label": "On-Policy Distillation",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.07654v1"
+    },
+    {
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
+    },
+    {
+      "label": "Watermarking",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.08668v1"
+    },
+    {
+      "label": "Model Context Protocol",
+      "quadrant": 2,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.08680v1"
+    },
+    {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/Dreamer-Toby/STEPQuant"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/Yamz-Labs/kyojin"
+    },
+    {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.04953v1"
+    },
+    {
+      "label": "RAG",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/heaven999b/hello-agent-system"
+    },
+    {
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/useagenthq/threads"
+    },
+    {
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/Justinuse1/pojia-breaker"
+    },
+    {
+      "label": "Machine unlearning",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.07197v1"
+    },
+    {
+      "label": "World Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.08773v1"
+    }
+  ]
+}
