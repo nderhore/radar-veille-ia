@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,6 +30,14 @@
   ],
   "entries": [
     {
+      "label": "Decision Models",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://blog.cloudflare.com/clef-decision-models/"
+    },
+    {
       "label": "Class-Incremental Learning",
       "quadrant": 1,
       "ring": 3,
@@ -43,7 +51,15 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.09639v1"
+      "link": "http://arxiv.org/abs/2610.11332v1"
+    },
+    {
+      "label": "Llm Pretraining",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.11585v1"
     },
     {
       "label": "Computer use",
@@ -54,20 +70,20 @@
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
     {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.10261v1"
-    },
-    {
       "label": "Watermarking",
       "quadrant": 0,
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.09552v1"
+      "link": "http://arxiv.org/abs/2610.12106v1"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.10827v1"
     },
     {
       "label": "Model Context Protocol",
@@ -81,17 +97,17 @@
       "label": "On-device AI",
       "quadrant": 1,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
     },
     {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Dreamer-Toby/STEPQuant"
+      "link": "http://arxiv.org/abs/2610.10786v1"
     },
     {
       "label": "RAG",
@@ -102,12 +118,12 @@
       "link": "https://github.com/heaven999b/hello-agent-system"
     },
     {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.09145v1"
+      "link": "https://github.com/Dreamer-Toby/STEPQuant"
     },
     {
       "label": "Mixture of Experts",
@@ -131,23 +147,7 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.10515v1"
-    },
-    {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/e2sy/jailbreak-archives"
-    },
-    {
-      "label": "Machine unlearning",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.09496v1"
+      "link": "http://arxiv.org/abs/2610.12299v1"
     }
   ]
 }
