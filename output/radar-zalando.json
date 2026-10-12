@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -33,39 +33,23 @@
       "label": "Decision Models",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://blog.cloudflare.com/clef-decision-models/"
     },
     {
-      "label": "Class-Incremental Learning",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.04963v1"
-    },
-    {
-      "label": "On-Policy Distillation",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.11332v1"
-    },
-    {
-      "label": "Llm Pretraining",
+      "label": "Continuous Diffusion",
       "quadrant": 3,
       "ring": 3,
       "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.11585v1"
+      "link": "http://arxiv.org/abs/2610.13834v1"
     },
     {
       "label": "Computer use",
       "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
+      "ring": 1,
+      "moved": -1,
       "active": true,
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
@@ -78,14 +62,6 @@
       "link": "http://arxiv.org/abs/2610.12106v1"
     },
     {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.10827v1"
-    },
-    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
@@ -94,12 +70,12 @@
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
     {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 2,
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
+      "link": "http://arxiv.org/abs/2610.10827v1"
     },
     {
       "label": "Diffusion LLM",
@@ -107,15 +83,15 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.10786v1"
+      "link": "http://arxiv.org/abs/2610.13834v1"
     },
     {
-      "label": "RAG",
+      "label": "On-device AI",
       "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
+      "ring": 1,
+      "moved": 1,
       "active": true,
-      "link": "https://github.com/heaven999b/hello-agent-system"
+      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -134,20 +110,44 @@
       "link": "https://github.com/Yamz-Labs/kyojin"
     },
     {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/useagenthq/threads"
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
-      "label": "World Models",
-      "quadrant": 3,
+      "label": "Speculative decoding",
+      "quadrant": 1,
       "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.13778v1"
+    },
+    {
+      "label": "RAG",
+      "quadrant": 1,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.12299v1"
+      "link": "https://github.com/liaosiliangCodeLife/harness-mate-plat"
+    },
+    {
+      "label": "Machine unlearning",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.12769v1"
+    },
+    {
+      "label": "Test-time compute",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.12005v1"
     }
   ]
 }
