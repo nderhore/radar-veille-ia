@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -41,25 +41,25 @@
       "label": "Continuous Diffusion",
       "quadrant": 3,
       "ring": 3,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.13834v1"
+    },
+    {
+      "label": "Sparse Attention",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.11430v1"
     },
     {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
-      "moved": -1,
-      "active": true,
-      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.12106v1"
+      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
     {
       "label": "Model Context Protocol",
@@ -70,36 +70,12 @@
       "link": "https://github.com/feder-cr/invisible_playwright_mcp"
     },
     {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.10827v1"
-    },
-    {
       "label": "Diffusion LLM",
       "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.13834v1"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 1,
-      "active": true,
-      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
-    },
-    {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Dreamer-Toby/STEPQuant"
     },
     {
       "label": "Mixture of Experts",
@@ -110,10 +86,42 @@
       "link": "https://github.com/Yamz-Labs/kyojin"
     },
     {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/Dreamer-Toby/STEPQuant"
+    },
+    {
+      "label": "Watermarking",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.12106v1"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.10827v1"
+    },
+    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
@@ -121,7 +129,7 @@
       "label": "Speculative decoding",
       "quadrant": 1,
       "ring": 3,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.13778v1"
     },
@@ -134,18 +142,10 @@
       "link": "https://github.com/liaosiliangCodeLife/harness-mate-plat"
     },
     {
-      "label": "Machine unlearning",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.12769v1"
-    },
-    {
       "label": "Test-time compute",
       "quadrant": 3,
       "ring": 3,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.12005v1"
     }
