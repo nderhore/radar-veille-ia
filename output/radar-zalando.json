@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,6 +38,22 @@
       "link": "https://blog.cloudflare.com/clef-decision-models/"
     },
     {
+      "label": "About Ai",
+      "quadrant": 0,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+    },
+    {
+      "label": "Ai Coding",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/JinHo-von-Choi/anti-samcheonpo"
+    },
+    {
       "label": "Continuous Diffusion",
       "quadrant": 3,
       "ring": 3,
@@ -46,20 +62,36 @@
       "link": "http://arxiv.org/abs/2610.13834v1"
     },
     {
-      "label": "Sparse Attention",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.11430v1"
-    },
-    {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 1,
+      "active": true,
+      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
+    },
+    {
+      "label": "Watermarking",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.18359v1"
     },
     {
       "label": "Model Context Protocol",
@@ -67,7 +99,7 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/feder-cr/invisible_playwright_mcp"
+      "link": "https://github.com/arielshad/3d-asset-server"
     },
     {
       "label": "Diffusion LLM",
@@ -75,7 +107,7 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.13834v1"
+      "link": "http://arxiv.org/abs/2610.17917v1"
     },
     {
       "label": "Mixture of Experts",
@@ -91,23 +123,7 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Dreamer-Toby/STEPQuant"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.12106v1"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/"
+      "link": "https://github.com/Yamz-Labs/kyojin"
     },
     {
       "label": "Small Language Models",
@@ -115,23 +131,7 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.10827v1"
-    },
-    {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.13778v1"
+      "link": "http://arxiv.org/abs/2610.18624v1"
     },
     {
       "label": "RAG",
@@ -139,15 +139,15 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/liaosiliangCodeLife/harness-mate-plat"
+      "link": "https://github.com/RayenMlayeh/jevcrawl"
     },
     {
-      "label": "Test-time compute",
+      "label": "World Models",
       "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
+      "ring": 2,
+      "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.12005v1"
+      "link": "https://github.com/Gen-Verse/RSI-Anything"
     }
   ]
 }
