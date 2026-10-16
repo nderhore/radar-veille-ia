@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -35,7 +35,7 @@
       "ring": 2,
       "moved": 0,
       "active": true,
-      "link": "https://blog.cloudflare.com/clef-decision-models/"
+      "link": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails"
     },
     {
       "label": "About Ai",
@@ -46,20 +46,12 @@
       "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
     },
     {
-      "label": "Ai Coding",
-      "quadrant": 2,
-      "ring": 1,
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
-    },
-    {
-      "label": "Verifiable Rewards",
-      "quadrant": 2,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.20413v1"
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
       "label": "On-device AI",
@@ -70,20 +62,20 @@
       "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
     },
     {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
-    },
-    {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/Yamz-Labs/kyojin"
     },
     {
       "label": "Model Context Protocol",
@@ -99,23 +91,7 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.19928v1"
-    },
-    {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Yamz-Labs/kyojin"
-    },
-    {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.19855v1"
+      "link": "http://arxiv.org/abs/2610.21436v1"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -124,14 +100,6 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Yamz-Labs/kyojin"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.18359v1"
     },
     {
       "label": "RAG",
@@ -148,6 +116,38 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Gen-Verse/RSI-Anything"
+    },
+    {
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+    },
+    {
+      "label": "Watermarking",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.18359v1"
+    },
+    {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.21061v1"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.21594v1"
     }
   ]
 }
