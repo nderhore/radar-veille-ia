@@ -1,10 +1,10 @@
 {
   "meta": {
-    "as_of": "2026-10-16",
+    "as_of": "2026-10-19",
     "protocol_version": "1.0.0",
     "method": "heuristique",
-    "n_recent": 3222,
-    "n_baseline": 9950
+    "n_recent": 3026,
+    "n_baseline": 9893
   },
   "entries": [
     {
@@ -13,47 +13,200 @@
       "ring": "explorer",
       "trl": 4,
       "innovation_type": "incrementale",
-      "impact": 4,
+      "impact": 3,
       "confidence": 3,
-      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 16 documents récents contre 7 sur la période de référence : sujet en forte accélération (G² = 21.5, significatif). Présent dans : recherche, communauté, presse ; maturité estimée TRL 4. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
+      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 14 documents récents contre 9 sur la période de référence : sujet en forte accélération (G² = 15.4, significatif). Présent dans : recherche, communauté, presse ; maturité estimée TRL 4. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
       "action": "Approfondir (KIQ-1.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?",
       "kiq": [
         "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
       ],
-      "disruption_index": 0.591,
+      "disruption_index": 0.5678,
       "evidence_urls": [
-        "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
         "https://opper.ai/jevman-benchmark/",
         "https://news.ycombinator.com/item?id=50072702",
         "http://arxiv.org/abs/2610.21412v1",
         "http://arxiv.org/abs/2610.20951v1",
         "http://arxiv.org/abs/2610.19536v1",
         "http://arxiv.org/abs/2610.18610v1",
+        "http://arxiv.org/abs/2610.17727v2",
         "http://arxiv.org/abs/2610.17727v1"
       ],
       "moved": "stable"
     },
     {
-      "label": "About Ai",
+      "label": "Agent S",
+      "quadrant": "Agents & Applications",
+      "ring": "preparer",
+      "trl": 5,
+      "innovation_type": "radicale",
+      "impact": 3,
+      "confidence": 3,
+      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 6 documents récents contre 1 sur la période de référence : sujet en forte accélération (G² = 12.6, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
+      "action": "Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?",
+      "kiq": [
+        "KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?"
+      ],
+      "disruption_index": 0.5453,
+      "evidence_urls": [
+        "https://github.com/mrsarac/ff-tracking",
+        "https://kairos-experiment.com/checks.html",
+        "http://arxiv.org/abs/2610.22779v1",
+        "http://arxiv.org/abs/2610.20195v1",
+        "http://arxiv.org/abs/2610.08722v1",
+        "http://arxiv.org/abs/2610.08514v1"
+      ],
+      "moved": "new"
+    },
+    {
+      "label": "Coding Agents",
+      "quadrant": "Agents & Applications",
+      "ring": "preparer",
+      "trl": 5,
+      "innovation_type": "incrementale",
+      "impact": 5,
+      "confidence": 3,
+      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 51 documents récents contre 94 sur la période de référence : sujet en forte accélération (G² = 11.8, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
+      "action": "Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?",
+      "kiq": [
+        "KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?"
+      ],
+      "disruption_index": 0.4983,
+      "evidence_urls": [
+        "https://github.com/Leonxlnx/earshot",
+        "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+        "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+        "https://github.com/christos-antono/NPCTalk",
+        "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+        "https://github.com/JinHo-von-Choi/anti-samcheonpo",
+        "https://github.com/huacnlee/gpui-shell-benchs",
+        "https://github.com/graphicle-ai/graphicle"
+      ],
+      "moved": "new"
+    },
+    {
+      "label": "Ai Coding",
+      "quadrant": "Agents & Applications",
+      "ring": "preparer",
+      "trl": 5,
+      "innovation_type": "incrementale",
+      "impact": 4,
+      "confidence": 3,
+      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 19 documents récents contre 17 sur la période de référence : sujet en forte accélération (G² = 15.4, significatif). Présent dans : code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
+      "action": "Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?",
+      "kiq": [
+        "KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?"
+      ],
+      "disruption_index": 0.4254,
+      "evidence_urls": [
+        "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+        "https://github.com/christos-antono/NPCTalk",
+        "https://github.com/JinHo-von-Choi/anti-samcheonpo",
+        "https://github.com/vakandi/opencode-rust",
+        "https://github.com/huacnlee/gpui-shell-benchs",
+        "https://github.com/ringozzt/rea-research",
+        "https://github.com/AntoGA/agents-contract",
+        "https://github.com/awslabs/aidlc-workflows"
+      ],
+      "moved": "new"
+    },
+    {
+      "label": "Anthropic Ai",
       "quadrant": "Confiance & Régulation",
       "ring": "explorer",
       "trl": 4,
       "innovation_type": "radicale",
       "impact": 3,
-      "confidence": 3,
-      "rationale": "Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 6 documents récents contre 0 sur la période de référence : sujet en forte accélération (G² = 17.2, significatif). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.",
-      "action": "Approfondir (KIQ-4.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?",
+      "confidence": 2,
+      "rationale": "Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 5 documents récents contre 0 sur la période de référence : sujet en forte accélération (G² = 14.9, significatif). Présent dans : communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.",
+      "action": "Approfondir (KIQ-4.2) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?",
       "kiq": [
-        "KIQ-4.1 : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?"
+        "KIQ-4.2 : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?"
       ],
-      "disruption_index": 0.4646,
+      "disruption_index": 0.4163,
       "evidence_urls": [
-        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-        "https://deadsimpletech.com/blog/llms-arent-inevitable",
-        "https://jesserichardson78.medium.com/calculate-your-probability-of-doom-6bd18de3e0e4",
-        "https://news.ycombinator.com/item?id=49973382",
-        "https://aihub.remakelearning.org/",
-        "http://arxiv.org/abs/2610.07459v1"
+        "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+        "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+        "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
+        "https://www.bbc.com/news/articles/cqkg50j1yd5lo",
+        "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+      ],
+      "moved": "new"
+    },
+    {
+      "label": "Llm Routing",
+      "quadrant": "Modèles & Techniques",
+      "ring": "surveiller",
+      "trl": 3,
+      "innovation_type": "incrementale",
+      "impact": 1,
+      "confidence": 2,
+      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 8 documents récents contre 3 sur la période de référence : sujet en forte accélération (G² = 12.4, significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
+      "action": "Surveiller (KIQ-1.2) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quand un petit modèle (< 10 Md de paramètres) atteindra-t-il le niveau de nos modèles actuels ?",
+      "kiq": [
+        "KIQ-1.2 : Quand un petit modèle (< 10 Md de paramètres) atteindra-t-il le niveau de nos modèles actuels ?"
+      ],
+      "disruption_index": 0.416,
+      "evidence_urls": [
+        "http://arxiv.org/abs/2610.23249v1",
+        "http://arxiv.org/abs/2610.22695v1",
+        "http://arxiv.org/abs/2610.19705v2",
+        "http://arxiv.org/abs/2610.19705v1",
+        "http://arxiv.org/abs/2610.17431v1",
+        "http://arxiv.org/abs/2610.12242v1",
+        "http://arxiv.org/abs/2610.09981v1",
+        "http://arxiv.org/abs/2610.06216v1"
+      ],
+      "moved": "new"
+    },
+    {
+      "label": "Model Context Protocol",
+      "quadrant": "Agents & Applications",
+      "ring": "agir",
+      "trl": 7,
+      "innovation_type": "incrementale",
+      "impact": 5,
+      "confidence": 3,
+      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 65 documents récents contre 176 sur la période de référence : sujet en progression (G² = 2.5, non significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
+      "action": "Décider (KIQ-2.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?",
+      "kiq": [
+        "KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?"
+      ],
+      "disruption_index": 0.36,
+      "evidence_urls": [
+        "https://github.com/Leonxlnx/earshot",
+        "https://github.com/LiCinCan/blender-ai-mcp-addon",
+        "https://github.com/cranebeaker/coop-anything",
+        "https://github.com/i12bp8/decomp.wtf",
+        "https://github.com/LingCore/WinShun",
+        "https://github.com/finereli/whatsapp-mcp",
+        "https://github.com/fzn0x/idx",
+        "https://github.com/finereli/whatsapp-mcp"
+      ],
+      "moved": "stable"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": "Infrastructure & Outillage",
+      "ring": "agir",
+      "trl": 7,
+      "innovation_type": "incrementale",
+      "impact": 4,
+      "confidence": 4,
+      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 27 documents récents contre 106 sur la période de référence : sujet stable (G² = -0.4). Présent dans : recherche, code ouvert, communauté, presse ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
+      "action": "Décider (KIQ-3.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?",
+      "kiq": [
+        "KIQ-3.2 : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?"
+      ],
+      "disruption_index": 0.2877,
+      "evidence_urls": [
+        "https://llmspeed.dev/",
+        "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+        "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/",
+        "https://github.com/ja1chen/actell",
+        "https://github.com/scs0209/laya-guard",
+        "http://arxiv.org/abs/2610.22621v1",
+        "http://arxiv.org/abs/2610.22053v1",
+        "http://arxiv.org/abs/2610.21565v1"
       ],
       "moved": "stable"
     },
@@ -65,47 +218,21 @@
       "innovation_type": "incrementale",
       "impact": 5,
       "confidence": 3,
-      "rationale": "Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 42 documents récents contre 176 sur la période de référence : sujet stable (G² = -2.6). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.",
+      "rationale": "Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 36 documents récents contre 179 sur la période de référence : sujet stable (G² = -4.7). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.",
       "action": "Décider (KIQ-4.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?",
       "kiq": [
         "KIQ-4.2 : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?"
       ],
-      "disruption_index": 0.29,
+      "disruption_index": 0.2874,
       "evidence_urls": [
         "https://github.com/onehumanbeing/esp32-iphone-agent",
         "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-        "http://arxiv.org/abs/2610.20776v1",
-        "http://arxiv.org/abs/2610.20679v1",
-        "http://arxiv.org/abs/2610.19971v1",
-        "http://arxiv.org/abs/2610.19587v1",
-        "http://arxiv.org/abs/2610.19422v1",
-        "http://arxiv.org/abs/2610.19372v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": "Infrastructure & Outillage",
-      "ring": "agir",
-      "trl": 7,
-      "innovation_type": "incrementale",
-      "impact": 3,
-      "confidence": 4,
-      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 29 documents récents contre 106 sur la période de référence : sujet stable (G² = -0.4). Présent dans : recherche, code ouvert, communauté, presse ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
-      "action": "Décider (KIQ-3.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?",
-      "kiq": [
-        "KIQ-3.2 : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?"
-      ],
-      "disruption_index": 0.2813,
-      "evidence_urls": [
-        "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-        "https://www.xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need/",
-        "https://github.com/ja1chen/actell",
-        "https://github.com/scs0209/laya-guard",
-        "http://arxiv.org/abs/2610.22053v1",
-        "http://arxiv.org/abs/2610.21565v1",
-        "http://arxiv.org/abs/2610.21436v1",
-        "http://arxiv.org/abs/2610.21402v1"
+        "http://arxiv.org/abs/2610.23307v1",
+        "http://arxiv.org/abs/2610.23254v1",
+        "http://arxiv.org/abs/2610.23030v1",
+        "http://arxiv.org/abs/2610.22987v1",
+        "http://arxiv.org/abs/2610.22873v1",
+        "http://arxiv.org/abs/2610.20776v1"
       ],
       "moved": "stable"
     },
@@ -117,73 +244,73 @@
       "innovation_type": "incrementale",
       "impact": 3,
       "confidence": 3,
-      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 28 documents récents contre 76 sur la période de référence : sujet en progression (G² = 0.6, non significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
+      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 27 documents récents contre 77 sur la période de référence : sujet en progression (G² = 0.6, non significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
       "action": "Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?",
       "kiq": [
         "KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?"
       ],
-      "disruption_index": 0.2706,
+      "disruption_index": 0.2863,
       "evidence_urls": [
         "https://github.com/onehumanbeing/esp32-iphone-agent",
         "https://github.com/touri-ai/touri",
         "https://github.com/tony3liu/eido",
         "https://news.ycombinator.com/item?id=50016052",
+        "http://arxiv.org/abs/2610.23012v1",
+        "http://arxiv.org/abs/2610.22990v1",
         "http://arxiv.org/abs/2610.22280v1",
-        "http://arxiv.org/abs/2610.22234v1",
-        "http://arxiv.org/abs/2610.21088v1",
-        "http://arxiv.org/abs/2610.20939v1"
+        "http://arxiv.org/abs/2610.22234v1"
       ],
       "moved": "stable"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": "Modèles & Techniques",
-      "ring": "agir",
-      "trl": 7,
-      "innovation_type": "incrementale",
-      "impact": 3,
-      "confidence": 3,
-      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 55 documents récents contre 167 sur la période de référence : sujet en progression (G² = 0.1, non significatif). Présent dans : recherche, code ouvert, presse ; maturité estimée TRL 7. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
-      "action": "Décider (KIQ-1.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?",
-      "kiq": [
-        "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
-      ],
-      "disruption_index": 0.2604,
-      "evidence_urls": [
-        "https://github.com/Yamz-Labs/kyojin",
-        "http://arxiv.org/abs/2610.22344v1",
-        "http://arxiv.org/abs/2610.22127v1",
-        "http://arxiv.org/abs/2610.21682v1",
-        "https://huggingface.co/blog/meta-muse-spark-open",
-        "http://arxiv.org/abs/2610.20826v1",
-        "http://arxiv.org/abs/2610.20418v1",
-        "http://arxiv.org/abs/2610.20399v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "Model Context Protocol",
-      "quadrant": "Agents & Applications",
+      "label": "Quantization 1-4 bits",
+      "quadrant": "Infrastructure & Outillage",
       "ring": "agir",
       "trl": 7,
       "innovation_type": "incrementale",
       "impact": 4,
       "confidence": 3,
-      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 56 documents récents contre 177 sur la période de référence : sujet en progression (G² = 0.0, non significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
-      "action": "Décider (KIQ-2.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?",
+      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 89 documents récents contre 340 sur la période de référence : sujet stable (G² = -0.9). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
+      "action": "Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?",
       "kiq": [
-        "KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?"
+        "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
       ],
-      "disruption_index": 0.2489,
+      "disruption_index": 0.2299,
       "evidence_urls": [
-        "https://github.com/i12bp8/decomp.wtf",
-        "https://github.com/arielshad/3d-asset-server",
-        "https://github.com/LingCore/WinShun",
-        "https://github.com/Leonxlnx/earshot",
-        "https://github.com/sepehr071/awesome-iran-mcp",
-        "https://github.com/mcpdelta/mcpdelta",
-        "https://github.com/zhutoumeme/mcd-git",
-        "https://github.com/vakandi/opencode-rust"
+        "https://github.com/justxor/deepseek-local-guide-ru",
+        "http://arxiv.org/abs/2610.23338v1",
+        "http://arxiv.org/abs/2610.23265v1",
+        "http://arxiv.org/abs/2610.23170v1",
+        "http://arxiv.org/abs/2610.22771v1",
+        "http://arxiv.org/abs/2610.22621v1",
+        "http://arxiv.org/abs/2610.21825v1",
+        "http://arxiv.org/abs/2610.21695v1"
+      ],
+      "moved": "stable"
+    },
+    {
+      "label": "RAG",
+      "quadrant": "Infrastructure & Outillage",
+      "ring": "agir",
+      "trl": 7,
+      "innovation_type": "incrementale",
+      "impact": 3,
+      "confidence": 3,
+      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 46 documents récents contre 258 sur la période de référence : sujet en recul relatif (G² = -11.0) : sujet probablement banalisé, à vérifier avant tout investissement. Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
+      "action": "Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?",
+      "kiq": [
+        "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
+      ],
+      "disruption_index": 0.1997,
+      "evidence_urls": [
+        "https://github.com/justxor/deepseek-local-guide-ru",
+        "https://github.com/jaikydota/BullFlow",
+        "https://github.com/RayenMlayeh/jevcrawl",
+        "https://github.com/liaosiliangCodeLife/harness-mate-plat",
+        "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+        "http://arxiv.org/abs/2610.23588v1",
+        "http://arxiv.org/abs/2610.23226v1",
+        "http://arxiv.org/abs/2610.23205v1"
       ],
       "moved": "stable"
     },
@@ -195,176 +322,21 @@
       "innovation_type": "incrementale",
       "impact": 1,
       "confidence": 2,
-      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 32 documents récents contre 66 sur la période de référence : sujet en progression (G² = 4.0, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
+      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 27 documents récents contre 71 sur la période de référence : sujet en progression (G² = 1.3, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
       "action": "Surveiller (KIQ-1.2) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quand un petit modèle (< 10 Md de paramètres) atteindra-t-il le niveau de nos modèles actuels ?",
       "kiq": [
         "KIQ-1.2 : Quand un petit modèle (< 10 Md de paramètres) atteindra-t-il le niveau de nos modèles actuels ?"
       ],
-      "disruption_index": 0.2366,
+      "disruption_index": 0.1671,
       "evidence_urls": [
+        "http://arxiv.org/abs/2610.22906v1",
         "http://arxiv.org/abs/2610.21436v1",
+        "http://arxiv.org/abs/2610.22428v1",
         "http://arxiv.org/abs/2610.21151v1",
         "http://arxiv.org/abs/2610.20980v1",
         "http://arxiv.org/abs/2610.19928v1",
         "http://arxiv.org/abs/2610.19439v1",
-        "http://arxiv.org/abs/2610.19382v1",
-        "http://arxiv.org/abs/2610.19169v1",
-        "http://arxiv.org/abs/2610.18624v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "Quantization 1-4 bits",
-      "quadrant": "Infrastructure & Outillage",
-      "ring": "agir",
-      "trl": 7,
-      "innovation_type": "incrementale",
-      "impact": 3,
-      "confidence": 3,
-      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 100 documents récents contre 341 sur la période de référence : sujet stable (G² = -0.3). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
-      "action": "Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?",
-      "kiq": [
-        "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
-      ],
-      "disruption_index": 0.2075,
-      "evidence_urls": [
-        "https://github.com/Yamz-Labs/kyojin",
-        "http://arxiv.org/abs/2610.21825v1",
-        "http://arxiv.org/abs/2610.21695v1",
-        "http://arxiv.org/abs/2610.21436v1",
-        "http://arxiv.org/abs/2610.21257v1",
-        "http://arxiv.org/abs/2610.21045v1",
-        "http://arxiv.org/abs/2610.20826v1",
-        "http://arxiv.org/abs/2610.20788v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "RAG",
-      "quadrant": "Infrastructure & Outillage",
-      "ring": "agir",
-      "trl": 7,
-      "innovation_type": "incrementale",
-      "impact": 2,
-      "confidence": 3,
-      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 45 documents récents contre 264 sur la période de référence : sujet en recul relatif (G² = -16.5) : sujet probablement banalisé, à vérifier avant tout investissement. Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
-      "action": "Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?",
-      "kiq": [
-        "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
-      ],
-      "disruption_index": 0.1722,
-      "evidence_urls": [
-        "https://github.com/RayenMlayeh/jevcrawl",
-        "https://github.com/liaosiliangCodeLife/harness-mate-plat",
-        "https://github.com/jaikydota/BullFlow",
-        "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
-        "http://arxiv.org/abs/2610.22297v1",
-        "http://arxiv.org/abs/2610.22017v1",
-        "http://arxiv.org/abs/2610.21464v1",
-        "http://arxiv.org/abs/2610.21424v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "World Models",
-      "quadrant": "Modèles & Techniques",
-      "ring": "explorer",
-      "trl": 4,
-      "innovation_type": "incrementale",
-      "impact": 2,
-      "confidence": 3,
-      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 40 documents récents contre 127 sur la période de référence : sujet stable (G² = 0.0). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
-      "action": "Approfondir (KIQ-1.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?",
-      "kiq": [
-        "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
-      ],
-      "disruption_index": 0.1681,
-      "evidence_urls": [
-        "https://github.com/Gen-Verse/RSI-Anything",
-        "http://arxiv.org/abs/2610.22343v1",
-        "http://arxiv.org/abs/2610.21910v1",
-        "http://arxiv.org/abs/2610.21319v1",
-        "http://arxiv.org/abs/2610.21283v1",
-        "http://arxiv.org/abs/2610.20764v1",
-        "http://arxiv.org/abs/2610.19955v1",
-        "http://arxiv.org/abs/2610.19795v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": "Agents & Applications",
-      "ring": "explorer",
-      "trl": 4,
-      "innovation_type": "incrementale",
-      "impact": 2,
-      "confidence": 3,
-      "rationale": "Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 7 documents récents contre 26 sur la période de référence : sujet stable (G² = -0.1). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.",
-      "action": "Approfondir (KIQ-2.2) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?",
-      "kiq": [
-        "KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?"
-      ],
-      "disruption_index": 0.1308,
-      "evidence_urls": [
-        "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-        "http://arxiv.org/abs/2610.21538v1",
-        "http://arxiv.org/abs/2610.19818v1",
-        "http://arxiv.org/abs/2610.19342v1",
-        "http://arxiv.org/abs/2610.19342v2",
-        "http://arxiv.org/abs/2610.18424v1",
-        "http://arxiv.org/abs/2610.04053v1"
-      ],
-      "moved": "new"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": "Confiance & Régulation",
-      "ring": "surveiller",
-      "trl": 3,
-      "innovation_type": "incrementale",
-      "impact": 1,
-      "confidence": 2,
-      "rationale": "Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 14 documents récents contre 36 sur la période de référence : sujet en progression (G² = 0.5, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.",
-      "action": "Surveiller (KIQ-4.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?",
-      "kiq": [
-        "KIQ-4.1 : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?"
-      ],
-      "disruption_index": 0.1196,
-      "evidence_urls": [
-        "http://arxiv.org/abs/2610.18359v1",
-        "http://arxiv.org/abs/2610.17810v1",
-        "http://arxiv.org/abs/2610.17655v1",
-        "http://arxiv.org/abs/2610.15976v1",
-        "http://arxiv.org/abs/2610.15725v1",
-        "http://arxiv.org/abs/2610.12106v1",
-        "http://arxiv.org/abs/2610.11848v1",
-        "http://arxiv.org/abs/2610.09552v1"
-      ],
-      "moved": "stable"
-    },
-    {
-      "label": "Diffusion LLM",
-      "quadrant": "Modèles & Techniques",
-      "ring": "surveiller",
-      "trl": 3,
-      "innovation_type": "incrementale",
-      "impact": 1,
-      "confidence": 2,
-      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 14 documents récents contre 37 sur la période de référence : sujet en progression (G² = 0.4, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
-      "action": "Surveiller (KIQ-1.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?",
-      "kiq": [
-        "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
-      ],
-      "disruption_index": 0.112,
-      "evidence_urls": [
-        "http://arxiv.org/abs/2610.21061v1",
-        "http://arxiv.org/abs/2610.19855v1",
-        "http://arxiv.org/abs/2610.19053v1",
-        "http://arxiv.org/abs/2610.17917v1",
-        "http://arxiv.org/abs/2610.17868v1",
-        "http://arxiv.org/abs/2610.17780v1",
-        "http://arxiv.org/abs/2610.16839v1",
-        "http://arxiv.org/abs/2610.13834v1"
+        "http://arxiv.org/abs/2610.19382v1"
       ],
       "moved": "stable"
     },
@@ -376,23 +348,49 @@
       "innovation_type": "incrementale",
       "impact": 1,
       "confidence": 2,
-      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 22 documents récents contre 64 sur la période de référence : sujet en progression (G² = 0.1, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
+      "rationale": "Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 23 documents récents contre 60 sur la période de référence : sujet en progression (G² = 1.2, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.",
       "action": "Surveiller (KIQ-3.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?",
       "kiq": [
         "KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?"
       ],
-      "disruption_index": 0.0936,
+      "disruption_index": 0.1616,
       "evidence_urls": [
+        "http://arxiv.org/abs/2610.23787v1",
+        "http://arxiv.org/abs/2610.23613v1",
+        "http://arxiv.org/abs/2610.22543v1",
         "http://arxiv.org/abs/2610.21594v1",
         "http://arxiv.org/abs/2610.21436v1",
         "http://arxiv.org/abs/2610.20865v1",
         "http://arxiv.org/abs/2610.20687v1",
-        "http://arxiv.org/abs/2610.20392v1",
-        "http://arxiv.org/abs/2610.18735v1",
-        "http://arxiv.org/abs/2610.13778v1",
-        "http://arxiv.org/abs/2610.13708v1"
+        "http://arxiv.org/abs/2610.20392v1"
       ],
-      "moved": "new"
+      "moved": "stable"
+    },
+    {
+      "label": "World Models",
+      "quadrant": "Modèles & Techniques",
+      "ring": "explorer",
+      "trl": 4,
+      "innovation_type": "incrementale",
+      "impact": 2,
+      "confidence": 3,
+      "rationale": "Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 32 documents récents contre 129 sur la période de référence : sujet stable (G² = -0.7). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.",
+      "action": "Approfondir (KIQ-1.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?",
+      "kiq": [
+        "KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?"
+      ],
+      "disruption_index": 0.1582,
+      "evidence_urls": [
+        "https://github.com/Gen-Verse/RSI-Anything",
+        "http://arxiv.org/abs/2610.23344v1",
+        "http://arxiv.org/abs/2610.22708v1",
+        "http://arxiv.org/abs/2610.22343v1",
+        "http://arxiv.org/abs/2610.21910v1",
+        "http://arxiv.org/abs/2610.21319v1",
+        "http://arxiv.org/abs/2610.21283v1",
+        "http://arxiv.org/abs/2610.20764v1"
+      ],
+      "moved": "stable"
     }
   ]
 }

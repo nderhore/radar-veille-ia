@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -35,15 +35,63 @@
       "ring": 2,
       "moved": 0,
       "active": true,
-      "link": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails"
+      "link": "https://opper.ai/jevman-benchmark/"
     },
     {
-      "label": "About Ai",
+      "label": "Agent S",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/mrsarac/ff-tracking"
+    },
+    {
+      "label": "Coding Agents",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "label": "Ai Coding",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+      "label": "Anthropic Ai",
       "quadrant": 0,
       "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
+    },
+    {
+      "label": "Llm Routing",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.23249v1"
+    },
+    {
+      "label": "Model Context Protocol",
+      "quadrant": 2,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+      "link": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://llmspeed.dev/"
     },
     {
       "label": "Prompt injection",
@@ -54,14 +102,6 @@
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
-    },
-    {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
@@ -70,36 +110,12 @@
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Yamz-Labs/kyojin"
-    },
-    {
-      "label": "Model Context Protocol",
-      "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/i12bp8/decomp.wtf"
-    },
-    {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.21436v1"
-    },
-    {
       "label": "Quantization 1-4 bits",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Yamz-Labs/kyojin"
+      "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
       "label": "RAG",
@@ -107,7 +123,23 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/RayenMlayeh/jevcrawl"
+      "link": "https://github.com/justxor/deepseek-local-guide-ru"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.22906v1"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.23787v1"
     },
     {
       "label": "World Models",
@@ -116,38 +148,6 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Gen-Verse/RSI-Anything"
-    },
-    {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.18359v1"
-    },
-    {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.21061v1"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.21594v1"
     }
   ]
 }
