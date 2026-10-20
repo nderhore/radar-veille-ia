@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -41,7 +41,7 @@
       "label": "Agent S",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/mrsarac/ff-tracking"
     },
@@ -49,7 +49,7 @@
       "label": "Coding Agents",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/Leonxlnx/earshot"
     },
@@ -57,25 +57,9 @@
       "label": "Ai Coding",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
-    },
-    {
-      "label": "Anthropic Ai",
-      "quadrant": 0,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
-    },
-    {
-      "label": "Llm Routing",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.23249v1"
     },
     {
       "label": "Model Context Protocol",
@@ -84,6 +68,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
       "label": "On-device AI",
@@ -97,14 +89,6 @@
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
-    },
-    {
-      "label": "Computer use",
-      "quadrant": 2,
-      "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
@@ -126,20 +110,12 @@
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
-      "label": "Small Language Models",
+      "label": "Diffusion LLM",
       "quadrant": 3,
       "ring": 3,
-      "moved": 0,
+      "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.22906v1"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.23787v1"
+      "link": "http://arxiv.org/abs/2610.26693v1"
     },
     {
       "label": "World Models",
@@ -148,6 +124,30 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Gen-Verse/RSI-Anything"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.26754v1"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.26013v1"
+    },
+    {
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     }
   ]
 }
