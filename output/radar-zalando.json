@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,20 +38,12 @@
       "link": "https://opper.ai/jevman-benchmark/"
     },
     {
-      "label": "Agent S",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
+      "label": "Prior-Data Fitted",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/mrsarac/ff-tracking"
-    },
-    {
-      "label": "Coding Agents",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Leonxlnx/earshot"
+      "link": "http://arxiv.org/abs/2610.28314v1"
     },
     {
       "label": "Ai Coding",
@@ -60,6 +52,14 @@
       "moved": 0,
       "active": true,
       "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+      "label": "Verifiable Rewards",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.27012v1"
     },
     {
       "label": "Model Context Protocol",
@@ -102,6 +102,14 @@
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.28559v1"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
@@ -110,12 +118,12 @@
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
-      "label": "Diffusion LLM",
+      "label": "Test-time compute",
       "quadrant": 3,
       "ring": 3,
       "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.26693v1"
+      "link": "http://arxiv.org/abs/2610.28623v1"
     },
     {
       "label": "World Models",
@@ -126,28 +134,20 @@
       "link": "https://github.com/Gen-Verse/RSI-Anything"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.26754v1"
+      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     },
     {
-      "label": "Small Language Models",
+      "label": "Mixture of Experts",
       "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.26013v1"
-    },
-    {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+      "link": "http://arxiv.org/abs/2610.28578v1"
     }
   ]
 }
