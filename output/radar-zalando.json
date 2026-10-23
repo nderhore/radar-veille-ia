@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,36 +30,12 @@
   ],
   "entries": [
     {
-      "label": "Decision Models",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://opper.ai/jevman-benchmark/"
-    },
-    {
       "label": "Prior-Data Fitted",
       "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.28314v1"
-    },
-    {
-      "label": "Verifiable Rewards",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.29281v1"
-    },
-    {
-      "label": "Ai Coding",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
     },
     {
       "label": "Model Context Protocol",
@@ -78,12 +54,20 @@
       "link": "https://github.com/onehumanbeing/esp32-iphone-agent"
     },
     {
+      "label": "Diffusion Language",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.31558v1"
+    },
+    {
       "label": "Diffusion LLM",
       "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.30068v1"
+      "link": "http://arxiv.org/abs/2610.31558v1"
     },
     {
       "label": "On-device AI",
@@ -107,15 +91,7 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/justxor/deepseek-local-guide-ru"
-    },
-    {
-      "label": "Test-time compute",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.28834v1"
+      "link": "https://github.com/h9-tec/ai-roadmap-2026"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -124,6 +100,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
+    },
+    {
+      "label": "Test-time compute",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.30744v1"
     },
     {
       "label": "World Models",
@@ -139,15 +123,31 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.29999v1"
+      "link": "http://arxiv.org/abs/2610.30949v1"
     },
     {
       "label": "Speculative decoding",
       "quadrant": 1,
       "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.31479v1"
+    },
+    {
+      "label": "State Space Models",
+      "quadrant": 3,
+      "ring": 3,
       "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.29527v1"
+      "link": "http://arxiv.org/abs/2610.29545v1"
+    },
+    {
+      "label": "Small Language Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.31483v1"
     }
   ]
 }
