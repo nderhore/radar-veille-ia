@@ -1,24 +1,30 @@
 {
-  "signaux_total": 16263,
+  "signaux_total": 16650,
   "par_source": {
-    "arxiv": 14441,
-    "hackernews": 1084,
-    "github": 413,
-    "rss:TechCrunch : AI": 175,
+    "arxiv": 14771,
+    "hackernews": 1123,
+    "github": 423,
+    "rss:TechCrunch : AI": 181,
     "rss:Hugging Face Blog": 73,
+    "rss:MIT Technology Review : AI": 29,
     "rss:Google DeepMind Blog": 28,
-    "rss:MIT Technology Review : AI": 27,
     "rss:CNIL : Actualités": 22
   },
   "par_axe": {
-    "KIT-1": 6838,
-    "KIT-2": 5748,
-    "KIT-3": 2162,
-    "KIT-4": 1310,
-    "hors périmètre": 205
+    "KIT-1": 6985,
+    "KIT-2": 5899,
+    "KIT-3": 2213,
+    "KIT-4": 1344,
+    "hors périmètre": 209
   },
   "verdicts": {},
   "executions": [
+    {
+      "run_at": "2026-10-27T10:18:13.035623+00:00",
+      "collected": 501,
+      "inserted": 387,
+      "errors": "[]"
+    },
     {
       "run_at": "2026-10-26T10:52:27.776126+00:00",
       "collected": 748,
@@ -72,13 +78,7 @@
       "collected": 670,
       "inserted": 539,
       "errors": "[]"
-    },
-    {
-      "run_at": "2026-10-13T12:33:16.250723+00:00",
-      "collected": 112,
-      "inserted": 53,
-      "errors": "[]"
     }
   ],
-  "radars_archives": 14
+  "radars_archives": 15
 }

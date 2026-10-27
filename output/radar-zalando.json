@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,6 +30,14 @@
   ],
   "entries": [
     {
+      "label": "Agents Md",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/Alejandros17487/ai-jailbreaks"
+    },
+    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
@@ -41,9 +49,9 @@
       "label": "Claude Code",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
-      "link": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+      "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
       "label": "On-device AI",
@@ -54,28 +62,12 @@
       "link": "https://llmspeed.dev/"
     },
     {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.31558v1"
-    },
-    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/Alejandros17487/ai-jailbreaks"
-    },
-    {
-      "label": "Test-time compute",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.32235v1"
     },
     {
       "label": "Computer use",
@@ -86,6 +78,14 @@
       "link": "https://github.com/touri-ai/touri"
     },
     {
+      "label": "Test-time compute",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.34577v1"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
@@ -94,10 +94,18 @@
       "link": "https://github.com/h9-tec/ai-roadmap-2026"
     },
     {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.34582v1"
+    },
+    {
       "label": "Mixture of Experts",
       "quadrant": 3,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/Magnvs7/Promethevs"
     },
@@ -123,7 +131,15 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.31819v1"
+      "link": "http://arxiv.org/abs/2610.34959v1"
+    },
+    {
+      "label": "Machine unlearning",
+      "quadrant": 0,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.34495v1"
     },
     {
       "label": "Small Language Models",
@@ -132,22 +148,6 @@
       "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2610.31483v1"
-    },
-    {
-      "label": "Machine unlearning",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.32059v1"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.32092v1"
     }
   ]
 }
