@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,20 +30,28 @@
   ],
   "entries": [
     {
-      "label": "Agents Md",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/Alejandros17487/ai-jailbreaks"
-    },
-    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Leonxlnx/earshot"
+      "link": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "label": "Agents Md",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/blakeandersonw/ai-app-playbook"
+    },
+    {
+      "label": "Make Ai",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/alexpiar/be-ambitious-harness"
     },
     {
       "label": "Claude Code",
@@ -54,20 +62,20 @@
       "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://llmspeed.dev/"
-    },
-    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/Alejandros17487/ai-jailbreaks"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": -1,
+      "active": true,
+      "link": "https://llmspeed.dev/"
     },
     {
       "label": "Computer use",
@@ -86,20 +94,20 @@
       "link": "http://arxiv.org/abs/2610.34577v1"
     },
     {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.36940v1"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/h9-tec/ai-roadmap-2026"
-    },
-    {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.34582v1"
     },
     {
       "label": "Mixture of Experts",
@@ -118,14 +126,6 @@
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
-      "label": "World Models",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Gen-Verse/RSI-Anything"
-    },
-    {
       "label": "Speculative decoding",
       "quadrant": 1,
       "ring": 3,
@@ -134,20 +134,20 @@
       "link": "http://arxiv.org/abs/2610.34959v1"
     },
     {
-      "label": "Machine unlearning",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.34495v1"
-    },
-    {
-      "label": "Small Language Models",
+      "label": "World Models",
       "quadrant": 3,
       "ring": 3,
-      "moved": 0,
+      "moved": -1,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.31483v1"
+      "link": "http://arxiv.org/abs/2610.37588v1"
+    },
+    {
+      "label": "State Space Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.37645v1"
     }
   ]
 }
