@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -46,20 +46,20 @@
       "link": "https://github.com/blakeandersonw/ai-app-playbook"
     },
     {
-      "label": "Make Ai",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/alexpiar/be-ambitious-harness"
-    },
-    {
       "label": "Claude Code",
       "quadrant": 2,
       "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "label": "Make Ai",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/alexpiar/be-ambitious-harness"
     },
     {
       "label": "Prompt injection",
@@ -73,7 +73,7 @@
       "label": "On-device AI",
       "quadrant": 1,
       "ring": 1,
-      "moved": -1,
+      "moved": 0,
       "active": true,
       "link": "https://llmspeed.dev/"
     },
@@ -110,6 +110,14 @@
       "link": "https://github.com/h9-tec/ai-roadmap-2026"
     },
     {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/justxor/deepseek-local-guide-ru"
+    },
+    {
       "label": "Mixture of Experts",
       "quadrant": 3,
       "ring": 0,
@@ -118,12 +126,12 @@
       "link": "https://github.com/Magnvs7/Promethevs"
     },
     {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
+      "label": "World Models",
+      "quadrant": 3,
+      "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/justxor/deepseek-local-guide-ru"
+      "link": "http://arxiv.org/abs/2610.37588v1"
     },
     {
       "label": "Speculative decoding",
@@ -134,20 +142,12 @@
       "link": "http://arxiv.org/abs/2610.34959v1"
     },
     {
-      "label": "World Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": -1,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.37588v1"
-    },
-    {
-      "label": "State Space Models",
-      "quadrant": 3,
+      "label": "Watermarking",
+      "quadrant": 0,
       "ring": 3,
       "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.37645v1"
+      "link": "http://arxiv.org/abs/2610.37266v1"
     }
   ]
 }
