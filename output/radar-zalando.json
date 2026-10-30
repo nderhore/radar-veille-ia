@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -54,20 +54,20 @@
       "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
+      "label": "Ai Coding",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/jmanico/grim-prompter"
+    },
+    {
       "label": "Make Ai",
       "quadrant": 2,
       "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/alexpiar/be-ambitious-harness"
-    },
-    {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Alejandros17487/ai-jailbreaks"
     },
     {
       "label": "On-device AI",
@@ -78,20 +78,12 @@
       "link": "https://llmspeed.dev/"
     },
     {
-      "label": "Computer use",
-      "quadrant": 2,
-      "ring": 1,
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/touri-ai/touri"
-    },
-    {
-      "label": "Test-time compute",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.34577v1"
+      "link": "https://github.com/Alejandros17487/ai-jailbreaks"
     },
     {
       "label": "Diffusion LLM",
@@ -99,7 +91,23 @@
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.36940v1"
+      "link": "http://arxiv.org/abs/2610.39293v1"
+    },
+    {
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": -1,
+      "active": true,
+      "link": "https://getopposable.com/blog/computer-use-on-the-phone"
+    },
+    {
+      "label": "Test-time compute",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.39006v1"
     },
     {
       "label": "RAG",
@@ -118,36 +126,28 @@
       "link": "https://github.com/justxor/deepseek-local-guide-ru"
     },
     {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.40613v1"
+    },
+    {
+      "label": "State Space Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.39418v1"
+    },
+    {
       "label": "Mixture of Experts",
       "quadrant": 3,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/Magnvs7/Promethevs"
-    },
-    {
-      "label": "World Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.37588v1"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.34959v1"
-    },
-    {
-      "label": "Watermarking",
-      "quadrant": 0,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2610.37266v1"
     }
   ]
 }
