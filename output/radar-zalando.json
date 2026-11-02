@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,14 +38,6 @@
       "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
-      "label": "Agents Md",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/blakeandersonw/ai-app-playbook"
-    },
-    {
       "label": "Claude Code",
       "quadrant": 2,
       "ring": 1,
@@ -54,28 +46,12 @@
       "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
-      "label": "Ai Coding",
+      "label": "Code Codex",
       "quadrant": 2,
       "ring": 1,
       "moved": 2,
       "active": true,
-      "link": "https://github.com/jmanico/grim-prompter"
-    },
-    {
-      "label": "Make Ai",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/alexpiar/be-ambitious-harness"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://llmspeed.dev/"
+      "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
       "label": "Prompt injection",
@@ -86,28 +62,20 @@
       "link": "https://github.com/Alejandros17487/ai-jailbreaks"
     },
     {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 3,
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.39293v1"
+      "link": "https://github.com/wangzan101/Mika"
     },
     {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 2,
-      "moved": -1,
-      "active": true,
-      "link": "https://getopposable.com/blog/computer-use-on-the-phone"
-    },
-    {
-      "label": "Test-time compute",
-      "quadrant": 3,
-      "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.39006v1"
+      "link": "https://getopposable.com/blog/computer-use-on-the-phone"
     },
     {
       "label": "RAG",
@@ -115,7 +83,23 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/h9-tec/ai-roadmap-2026"
+      "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
+    },
+    {
+      "label": "State Space Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.41994v1"
+    },
+    {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.41574v1"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -123,23 +107,23 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/justxor/deepseek-local-guide-ru"
+      "link": "https://github.com/ahtx/kindi"
     },
     {
-      "label": "Speculative decoding",
-      "quadrant": 1,
+      "label": "Test-time compute",
+      "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.40613v1"
+      "link": "http://arxiv.org/abs/2610.42149v1"
     },
     {
-      "label": "State Space Models",
-      "quadrant": 3,
-      "ring": 3,
+      "label": "AI Act",
+      "quadrant": 0,
+      "ring": 2,
       "moved": 2,
       "active": true,
-      "link": "http://arxiv.org/abs/2610.39418v1"
+      "link": "https://www.arxo.io/findings/ARXO-2026-0413/"
     },
     {
       "label": "Mixture of Experts",
@@ -148,6 +132,22 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Magnvs7/Promethevs"
+    },
+    {
+      "label": "World Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.42146v1"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2610.40613v1"
     }
   ]
 }
