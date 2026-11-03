@@ -1,4 +1,4 @@
-# Note de veille du radar d'innovation IA (arrêté au 2026-11-02)
+# Note de veille du radar d'innovation IA (arrêté au 2026-11-03)
 
 | Rubrique | Valeur |
 |---|---|
@@ -6,7 +6,7 @@
 | Destinataires | CODIR, Direction technique, Product managers |
 | Version du protocole | 1.0.0 |
 | Méthode de qualification | heuristique |
-| Corpus | 2658 signaux récents, 11387 signaux de référence |
+| Corpus | 2703 signaux récents, 11597 signaux de référence |
 | Classification | Diffusion restreinte (interne) |
 
 ## 1. Synthèse exécutive
@@ -17,7 +17,7 @@
 
 ## 2. Mouvements depuis le radar précédent
 
-- Entrées nouvelles : Code Codex, AI Act, World Models
+- Entrées nouvelles : Ai Coding, Coding Agent, Agent-to-Agent (A2A)
 - Rapprochements du centre : aucun
 - Éloignements : aucun
 
@@ -25,21 +25,21 @@
 
 | Sujet | Quadrant | Anneau | TRL | Type | Impact | Confiance | Indice | Mouvement |
 |---|---|---|---|---|---|---|---|---|
-| Model Context Protocol | Agents & Applications | Agir | 7 | incrémentale | 5/5 | 3/5 | 0.456 | stable |
-| Prompt injection | Confiance & Régulation | Agir | 7 | incrémentale | 4/5 | 3/5 | 0.265 | stable |
-| RAG | Infrastructure & Outillage | Agir | 7 | incrémentale | 3/5 | 3/5 | 0.196 | stable |
-| Quantization 1-4 bits | Infrastructure & Outillage | Agir | 7 | incrémentale | 2/5 | 3/5 | 0.136 | stable |
-| Mixture of Experts | Modèles & Techniques | Agir | 7 | incrémentale | 1/5 | 3/5 | 0.118 | stable |
-| Claude Code | Agents & Applications | Préparer | 5 | incrémentale | 5/5 | 3/5 | 0.444 | stable |
-| Code Codex | Agents & Applications | Préparer | 5 | incrémentale | 5/5 | 3/5 | 0.398 | nouveau |
-| On-device AI | Infrastructure & Outillage | Préparer | 5 | incrémentale | 4/5 | 3/5 | 0.233 | stable |
-| Computer use | Agents & Applications | Explorer | 4 | incrémentale | 3/5 | 3/5 | 0.196 | stable |
-| AI Act | Confiance & Régulation | Explorer | 4 | incrémentale | 1/5 | 3/5 | 0.121 | nouveau |
-| State Space Models | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.180 | stable |
-| Diffusion LLM | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.177 | stable |
-| Test-time compute | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.126 | stable |
-| World Models | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 3/5 | 0.114 | nouveau |
-| Speculative decoding | Infrastructure & Outillage | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.095 | stable |
+| Model Context Protocol | Agents & Applications | Agir | 7 | incrémentale | 5/5 | 3/5 | 0.480 | stable |
+| Prompt injection | Confiance & Régulation | Agir | 7 | incrémentale | 4/5 | 3/5 | 0.261 | stable |
+| RAG | Infrastructure & Outillage | Agir | 7 | incrémentale | 3/5 | 3/5 | 0.203 | stable |
+| Quantization 1-4 bits | Infrastructure & Outillage | Agir | 7 | incrémentale | 1/5 | 3/5 | 0.123 | stable |
+| Mixture of Experts | Modèles & Techniques | Agir | 7 | incrémentale | 1/5 | 3/5 | 0.122 | stable |
+| Claude Code | Agents & Applications | Préparer | 5 | incrémentale | 5/5 | 3/5 | 0.445 | stable |
+| Code Codex | Agents & Applications | Préparer | 5 | incrémentale | 5/5 | 3/5 | 0.396 | stable |
+| Ai Coding | Agents & Applications | Préparer | 5 | incrémentale | 4/5 | 3/5 | 0.411 | nouveau |
+| Coding Agent | Agents & Applications | Préparer | 5 | incrémentale | 4/5 | 3/5 | 0.400 | nouveau |
+| On-device AI | Infrastructure & Outillage | Préparer | 5 | incrémentale | 4/5 | 3/5 | 0.230 | stable |
+| Agent-to-Agent (A2A) | Agents & Applications | Préparer | 5 | incrémentale | 3/5 | 3/5 | 0.170 | nouveau |
+| Computer use | Agents & Applications | Explorer | 4 | incrémentale | 3/5 | 3/5 | 0.194 | stable |
+| AI Act | Confiance & Régulation | Explorer | 4 | incrémentale | 1/5 | 3/5 | 0.183 | stable |
+| State Space Models | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.199 | stable |
+| Diffusion LLM | Modèles & Techniques | Surveiller | 3 | incrémentale | 1/5 | 2/5 | 0.138 | stable |
 
 Lecture des colonnes :
 
@@ -58,7 +58,7 @@ Lecture des colonnes :
 
 *Agents & Applications, Agir (0–6 mois), TRL 7*
 
-**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 76 documents récents contre 199 sur la période de référence : sujet en forte accélération (G² = 14.8, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 81 documents récents contre 202 sur la période de référence : sujet en forte accélération (G² = 18.4, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
 
 **Action recommandée.** Décider (KIQ-2.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?
 
@@ -66,16 +66,16 @@ Lecture des colonnes :
 
 **Preuves.**
 - <https://github.com/andyhuo520/digital-human-koubo>
+- <https://github.com/Balanov/shim>
 - <https://github.com/hevnsnt/CVEngine>
 - <https://github.com/muaaz9329/cheap-ag>
 - <https://github.com/qybaihe/bla>
-- <https://github.com/aa1143/NamiAgent>
 
 ### Prompt injection
 
 *Confiance & Régulation, Agir (0–6 mois), TRL 7*
 
-**Analyse.** Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 38 documents récents contre 184 sur la période de référence : sujet stable (G² = -0.2). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.
+**Analyse.** Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 42 documents récents contre 185 sur la période de référence : sujet en progression (G² = 0.0, non significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 7. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.
 
 **Action recommandée.** Décider (KIQ-4.2) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelles nouvelles classes d'attaques menacent nos systèmes à base de LLM ?
 
@@ -84,15 +84,15 @@ Lecture des colonnes :
 **Preuves.**
 - <https://github.com/Alejandros17487/ai-jailbreaks>
 - <https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/>
-- <https://github.com/AndreSzymanski15/ai-jailbreaks>
 - <https://github.com/codexlx/contextshield>
-- <http://arxiv.org/abs/2610.41998v1>
+- <http://arxiv.org/abs/2611.02741v1>
+- <http://arxiv.org/abs/2611.02643v1>
 
 ### RAG
 
 *Infrastructure & Outillage, Agir (0–6 mois), TRL 7*
 
-**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 51 documents récents contre 253 sur la période de référence : sujet stable (G² = -0.5). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
+**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 57 documents récents contre 247 sur la période de référence : sujet en progression (G² = 0.0, non significatif). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
 
 **Action recommandée.** Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?
 
@@ -109,24 +109,24 @@ Lecture des colonnes :
 
 *Infrastructure & Outillage, Agir (0–6 mois), TRL 7*
 
-**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 73 documents récents contre 377 sur la période de référence : sujet stable (G² = -1.4). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
+**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 81 documents récents contre 376 sur la période de référence : sujet stable (G² = -0.1). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
 
 **Action recommandée.** Décider (KIQ-3.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?
 
 **KIQ adressées.** KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?
 
 **Preuves.**
-- <https://github.com/ahtx/kindi>
 - <https://github.com/Magnvs7/Promethevs>
 - <https://github.com/zhangshuibai/molten>
-- <http://arxiv.org/abs/2610.41822v1>
-- <http://arxiv.org/abs/2610.41408v1>
+- <http://arxiv.org/abs/2611.03414v1>
+- <http://arxiv.org/abs/2611.03344v1>
+- <http://arxiv.org/abs/2611.02966v1>
 
 ### Mixture of Experts
 
 *Modèles & Techniques, Agir (0–6 mois), TRL 7*
 
-**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 34 documents récents contre 186 sur la période de référence : sujet stable (G² = -1.2). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
+**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 39 documents récents contre 186 sur la période de référence : sujet stable (G² = -0.1). Présent dans : recherche, code ouvert ; maturité estimée TRL 7. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
 
 **Action recommandée.** Décider (KIQ-1.1) : instruire au prochain comité radar une décision d'investissement ou d'industrialisation, avec chiffrage du gain attendu et désignation d'un responsable. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
 
@@ -135,15 +135,15 @@ Lecture des colonnes :
 **Preuves.**
 - <https://github.com/Magnvs7/Promethevs>
 - <https://github.com/zhangshuibai/molten>
-- <http://arxiv.org/abs/2610.41366v1>
-- <http://arxiv.org/abs/2610.41039v1>
-- <http://arxiv.org/abs/2610.40541v1>
+- <http://arxiv.org/abs/2611.03526v1>
+- <http://arxiv.org/abs/2611.03513v1>
+- <http://arxiv.org/abs/2611.03142v1>
 
 ### Claude Code
 
 *Agents & Applications, Préparer (6–18 mois), TRL 5*
 
-**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 26 documents récents contre 28 sur la période de référence : sujet en forte accélération (G² = 25.0, significatif). Présent dans : code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 26 documents récents contre 27 sur la période de référence : sujet en forte accélération (G² = 25.9, significatif). Présent dans : code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
 
 **Action recommandée.** Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?
 
@@ -173,11 +173,45 @@ Lecture des colonnes :
 - <https://github.com/Moh4696/open-3d-skills>
 - <https://github.com/aa1143/NamiAgent>
 
+### Ai Coding
+
+*Agents & Applications, Préparer (6–18 mois), TRL 5*
+
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 20 documents récents contre 33 sur la période de référence : sujet en forte accélération (G² = 11.1, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+
+**Action recommandée.** Expérimenter (KIQ-2.2) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?
+
+**KIQ adressées.** KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?
+
+**Preuves.**
+- <https://github.com/jmanico/grim-prompter>
+- <https://github.com/enmerasoftware/ai-design-check>
+- <https://github.com/jefferysha0627/agent-office-3d>
+- <https://layerfs.ai/>
+- <https://github.com/Sheernox/cedr>
+
+### Coding Agent
+
+*Agents & Applications, Préparer (6–18 mois), TRL 5*
+
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 18 documents récents contre 27 sur la période de référence : sujet en forte accélération (G² = 11.5, significatif). Présent dans : recherche, code ouvert, communauté ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+
+**Action recommandée.** Expérimenter (KIQ-2.1) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?
+
+**KIQ adressées.** KIQ-2.1 : Quels processus métier deviennent automatisables de bout en bout par des agents ?
+
+**Preuves.**
+- <https://github.com/blakeandersonw/ai-app-playbook>
+- <https://github.com/Sheernox/cedr>
+- <https://github.com/onurozcan/omux>
+- <https://github.com/DukeDeSouth/m7-mcp-oss>
+- <https://github.com/Vampiresatyr/rpocket-AI-Coding-Agent-Toolkit>
+
 ### On-device AI
 
 *Infrastructure & Outillage, Préparer (6–18 mois), TRL 5*
 
-**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 19 documents récents contre 110 sur la période de référence : sujet stable (G² = -1.2). Présent dans : recherche, code ouvert ; maturité estimée TRL 5. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
+**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 18 documents récents contre 112 sur la période de référence : sujet stable (G² = -1.9). Présent dans : recherche, code ouvert ; maturité estimée TRL 5. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
 
 **Action recommandée.** Expérimenter (KIQ-3.2) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quelles technologies permettent une IA souveraine ou embarquée (on-device) ?
 
@@ -186,15 +220,32 @@ Lecture des colonnes :
 **Preuves.**
 - <https://github.com/wangzan101/Mika>
 - <https://github.com/haplollc/Vesalius>
+- <http://arxiv.org/abs/2611.02601v1>
+- <http://arxiv.org/abs/2611.01377v1>
 - <http://arxiv.org/abs/2610.39758v1>
-- <http://arxiv.org/abs/2610.39343v1>
-- <http://arxiv.org/abs/2610.38329v1>
+
+### Agent-to-Agent (A2A)
+
+*Agents & Applications, Préparer (6–18 mois), TRL 5*
+
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 5 documents récents contre 27 sur la période de référence : sujet stable (G² = -0.2). Présent dans : recherche, code ouvert ; maturité estimée TRL 5. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+
+**Action recommandée.** Expérimenter (KIQ-2.2) : lancer une preuve de concept limitée (4 à 6 semaines) sur un cas d'usage interne, avec un critère de succès mesurable. Question à éclairer : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?
+
+**KIQ adressées.** KIQ-2.2 : Quels standards d'interopérabilité entre agents s'imposent (MCP, A2A, etc.) ?
+
+**Preuves.**
+- <https://github.com/Cygnux-Labs/PCM-protocol>
+- <http://arxiv.org/abs/2611.03066v1>
+- <http://arxiv.org/abs/2610.39109v1>
+- <http://arxiv.org/abs/2610.38398v1>
+- <http://arxiv.org/abs/2610.37415v1>
 
 ### Computer use
 
 *Agents & Applications, Explorer (18–36 mois), TRL 4*
 
-**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 17 documents récents contre 96 sur la période de référence : sujet stable (G² = -0.8). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
+**Analyse.** Axe KIT-2 « Agents autonomes et automatisation des processus métier ». 16 documents récents contre 98 sur la période de référence : sujet stable (G² = -1.5). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Nouvelles offres d'automatisation de bout en bout pour nos clients ; menace sur nos prestations à faible valeur ajoutée.
 
 **Action recommandée.** Approfondir (KIQ-2.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quels processus métier deviennent automatisables de bout en bout par des agents ?
 
@@ -202,16 +253,16 @@ Lecture des colonnes :
 
 **Preuves.**
 - <https://getopposable.com/blog/computer-use-on-the-phone>
+- <http://arxiv.org/abs/2611.03634v1>
+- <http://arxiv.org/abs/2611.03238v1>
+- <http://arxiv.org/abs/2611.03126v1>
 - <http://arxiv.org/abs/2610.41397v1>
-- <http://arxiv.org/abs/2610.40246v1>
-- <http://arxiv.org/abs/2610.39282v1>
-- <http://arxiv.org/abs/2610.36877v1>
 
 ### AI Act
 
 *Confiance & Régulation, Explorer (18–36 mois), TRL 4*
 
-**Analyse.** Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 5 documents récents contre 20 sur la période de référence : sujet en progression (G² = 0.1, non significatif). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.
+**Analyse.** Axe KIT-4 « Sécurité, fiabilité, conformité réglementaire et éthique de l'IA ». 7 documents récents contre 20 sur la période de référence : sujet en progression (G² = 1.0, non significatif). Présent dans : recherche, communauté ; maturité estimée TRL 4. Enjeu pour l'organisation : Conformité (AI Act, RGPD) et sécurité de nos produits IA : condition d'accès aux marchés santé et public.
 
 **Action recommandée.** Approfondir (KIQ-4.1) : rédiger une fiche d'analyse, identifier 2 ou 3 acteurs ou laboratoires de référence et renforcer la collecte sur ce sujet. Question à éclairer : Quelles obligations de l'AI Act s'appliquent à nos produits et à quelle échéance ?
 
@@ -219,95 +270,44 @@ Lecture des colonnes :
 
 **Preuves.**
 - <https://www.arxo.io/findings/ARXO-2026-0413/>
+- <http://arxiv.org/abs/2611.03121v1>
+- <http://arxiv.org/abs/2611.02561v1>
 - <http://arxiv.org/abs/2610.41437v1>
 - <http://arxiv.org/abs/2610.35671v1>
-- <http://arxiv.org/abs/2610.31588v1>
-- <http://arxiv.org/abs/2610.30051v1>
 
 ### State Space Models
 
 *Modèles & Techniques, Surveiller (> 36 mois), TRL 3*
 
-**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 16 documents récents contre 46 sur la période de référence : sujet en progression (G² = 2.1, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
+**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 17 documents récents contre 46 sur la période de référence : sujet en progression (G² = 2.9, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
 
 **Action recommandée.** Surveiller (KIQ-1.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
 
 **KIQ adressées.** KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
 
 **Preuves.**
+- <http://arxiv.org/abs/2611.03101v1>
 - <http://arxiv.org/abs/2610.41994v1>
 - <http://arxiv.org/abs/2610.39418v1>
 - <http://arxiv.org/abs/2610.38578v1>
 - <http://arxiv.org/abs/2610.38255v1>
-- <http://arxiv.org/abs/2610.38095v1>
 
 ### Diffusion LLM
 
 *Modèles & Techniques, Surveiller (> 36 mois), TRL 3*
 
-**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 17 documents récents contre 50 sur la période de référence : sujet en progression (G² = 2.1, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
+**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 16 documents récents contre 53 sur la période de référence : sujet en progression (G² = 1.1, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
 
 **Action recommandée.** Surveiller (KIQ-1.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
 
 **KIQ adressées.** KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
 
 **Preuves.**
+- <http://arxiv.org/abs/2611.03454v1>
+- <http://arxiv.org/abs/2611.02666v1>
+- <http://arxiv.org/abs/2611.01320v1>
 - <http://arxiv.org/abs/2610.41574v1>
 - <http://arxiv.org/abs/2610.40847v1>
-- <http://arxiv.org/abs/2610.39293v1>
-- <http://arxiv.org/abs/2610.38775v1>
-- <http://arxiv.org/abs/2610.36940v1>
-
-### Test-time compute
-
-*Modèles & Techniques, Surveiller (> 36 mois), TRL 3*
-
-**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 20 documents récents contre 71 sur la période de référence : sujet en progression (G² = 0.8, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
-
-**Action recommandée.** Surveiller (KIQ-1.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
-
-**KIQ adressées.** KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
-
-**Preuves.**
-- <http://arxiv.org/abs/2610.42149v1>
-- <http://arxiv.org/abs/2610.41089v1>
-- <http://arxiv.org/abs/2610.40927v1>
-- <http://arxiv.org/abs/2610.39006v1>
-- <http://arxiv.org/abs/2610.40700v1>
-
-### World Models
-
-*Modèles & Techniques, Surveiller (> 36 mois), TRL 3*
-
-**Analyse.** Axe KIT-1 « Modèles de fondation et architectures d'apprentissage ». 32 documents récents contre 137 sur la période de référence : sujet en progression (G² = 0.1, non significatif). Présent dans : recherche, presse ; maturité estimée TRL 3. Enjeu pour l'organisation : Qualité et coût des modèles intégrés à nos offres ; dépendance aux fournisseurs de modèles.
-
-**Action recommandée.** Surveiller (KIQ-1.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
-
-**KIQ adressées.** KIQ-1.1 : Quelle architecture est en passe de remplacer le Transformer dense sur nos cas d'usage ?
-
-**Preuves.**
-- <http://arxiv.org/abs/2610.42146v1>
-- <http://arxiv.org/abs/2610.41273v1>
-- <http://arxiv.org/abs/2610.40927v1>
-- <http://arxiv.org/abs/2610.40798v1>
-- <http://arxiv.org/abs/2610.38980v1>
-
-### Speculative decoding
-
-*Infrastructure & Outillage, Surveiller (> 36 mois), TRL 3*
-
-**Analyse.** Axe KIT-3 « Infrastructure, inférence, coûts et outillage MLOps/LLMOps ». 20 documents récents contre 78 sur la période de référence : sujet en progression (G² = 0.3, non significatif). Présent dans : recherche ; maturité estimée TRL 3. Enjeu pour l'organisation : Baisse du coût d'inférence et hébergement souverain : marge des offres IA et réponse aux exigences clients.
-
-**Action recommandée.** Surveiller (KIQ-3.1) : maintenir le sujet en liste de surveillance et le réévaluer à la prochaine revue trimestrielle. Question à éclairer : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?
-
-**KIQ adressées.** KIQ-3.1 : Quelle trajectoire du coût d'inférence par million de tokens à 18 mois ?
-
-**Preuves.**
-- <http://arxiv.org/abs/2610.40613v1>
-- <http://arxiv.org/abs/2610.40287v1>
-- <http://arxiv.org/abs/2610.39761v1>
-- <http://arxiv.org/abs/2610.38981v1>
-- <http://arxiv.org/abs/2610.38331v1>
 
 ## 5. Méthodologie et limites
 
