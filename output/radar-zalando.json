@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -49,17 +49,9 @@
       "label": "Ai Coding",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/jmanico/grim-prompter"
-    },
-    {
-      "label": "Coding Agent",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/blakeandersonw/ai-app-playbook"
     },
     {
       "label": "Code Codex",
@@ -68,6 +60,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "label": "Coding Agent",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/blakeandersonw/ai-app-playbook"
     },
     {
       "label": "Prompt injection",
@@ -94,20 +94,12 @@
       "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
-      "label": "State Space Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.03101v1"
-    },
-    {
       "label": "Computer use",
       "quadrant": 2,
-      "ring": 2,
-      "moved": 0,
+      "ring": 1,
+      "moved": 1,
       "active": true,
-      "link": "https://getopposable.com/blog/computer-use-on-the-phone"
+      "link": "https://github.com/davidcitahernandez-debug/computer-use-agent-vault"
     },
     {
       "label": "AI Act",
@@ -121,17 +113,25 @@
       "label": "Agent-to-Agent (A2A)",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/Cygnux-Labs/PCM-protocol"
     },
     {
-      "label": "Diffusion LLM",
+      "label": "State Space Models",
       "quadrant": 3,
       "ring": 3,
       "moved": 0,
       "active": true,
-      "link": "http://arxiv.org/abs/2611.03454v1"
+      "link": "http://arxiv.org/abs/2611.04449v1"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -142,12 +142,12 @@
       "link": "https://github.com/Magnvs7/Promethevs"
     },
     {
-      "label": "Mixture of Experts",
+      "label": "World Models",
       "quadrant": 3,
-      "ring": 0,
-      "moved": 0,
+      "ring": 3,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/Magnvs7/Promethevs"
+      "link": "http://arxiv.org/abs/2611.04010v1"
     }
   ]
 }
