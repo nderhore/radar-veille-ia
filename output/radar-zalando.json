@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -51,7 +51,7 @@
       "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/jmanico/grim-prompter"
+      "link": "https://github.com/sarpstar/cinecode"
     },
     {
       "label": "Code Codex",
@@ -70,20 +70,20 @@
       "link": "https://github.com/blakeandersonw/ai-app-playbook"
     },
     {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 1,
+      "active": true,
+      "link": "https://github.com/wangzan101/Mika"
+    },
+    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Alejandros17487/ai-jailbreaks"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/wangzan101/Mika"
+      "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
     },
     {
       "label": "RAG",
@@ -94,12 +94,28 @@
       "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/Cygnux-Labs/PCM-protocol"
+    },
+    {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
-      "moved": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/davidcitahernandez-debug/computer-use-agent-vault"
+    },
+    {
+      "label": "State Space Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 0,
+      "active": true,
+      "link": "http://arxiv.org/abs/2611.06084v1"
     },
     {
       "label": "AI Act",
@@ -110,22 +126,6 @@
       "link": "https://www.arxo.io/findings/ARXO-2026-0413/"
     },
     {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Cygnux-Labs/PCM-protocol"
-    },
-    {
-      "label": "State Space Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.04449v1"
-    },
-    {
       "label": "Mixture of Experts",
       "quadrant": 3,
       "ring": 0,
@@ -134,20 +134,20 @@
       "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2611.06425v1"
+    },
+    {
       "label": "Quantization 1-4 bits",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/Magnvs7/Promethevs"
-    },
-    {
-      "label": "World Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.04010v1"
+      "link": "https://github.com/zhangshuibai/molten"
     }
   ]
 }
