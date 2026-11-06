@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,20 +38,20 @@
       "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
-      "label": "Claude Code",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/andyhuo520/digital-human-koubo"
-    },
-    {
       "label": "Ai Coding",
       "quadrant": 2,
       "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/sarpstar/cinecode"
+    },
+    {
+      "label": "Claude Code",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/andyhuo520/digital-human-koubo"
     },
     {
       "label": "Code Codex",
@@ -70,12 +70,28 @@
       "link": "https://github.com/blakeandersonw/ai-app-playbook"
     },
     {
+      "label": "Decision Models",
+      "quadrant": 3,
+      "ring": 3,
+      "moved": 2,
+      "active": true,
+      "link": "http://arxiv.org/abs/2611.08325v1"
+    },
+    {
       "label": "On-device AI",
       "quadrant": 1,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/wangzan101/Mika"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 1,
+      "active": true,
+      "link": "https://github.com/inclusionAI/ASpec"
     },
     {
       "label": "Prompt injection",
@@ -84,6 +100,14 @@
       "moved": 0,
       "active": true,
       "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
       "label": "RAG",
@@ -116,30 +140,6 @@
       "moved": 0,
       "active": true,
       "link": "http://arxiv.org/abs/2611.06084v1"
-    },
-    {
-      "label": "AI Act",
-      "quadrant": 0,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://www.arxo.io/findings/ARXO-2026-0413/"
-    },
-    {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/ZhuLinsen/LiteMoE"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.06425v1"
     },
     {
       "label": "Quantization 1-4 bits",
