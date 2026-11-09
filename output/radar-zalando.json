@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,52 +30,68 @@
   ],
   "entries": [
     {
+      "label": "AI Act",
+      "quadrant": 0,
+      "ring": 1,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Sandbox Environment",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Running Various Tools",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Ai Manus",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Supports Running",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "General-Purpose Ai Agent",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Ai-Manus Ai",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/andyhuo520/digital-human-koubo"
-    },
-    {
-      "label": "Ai Coding",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/sarpstar/cinecode"
-    },
-    {
-      "label": "Claude Code",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/andyhuo520/digital-human-koubo"
-    },
-    {
-      "label": "Code Codex",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/andyhuo520/digital-human-koubo"
-    },
-    {
-      "label": "Coding Agent",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/blakeandersonw/ai-app-playbook"
-    },
-    {
-      "label": "Decision Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.08325v1"
+      "link": "https://github.com/andrew-babo/muse4ai"
     },
     {
       "label": "On-device AI",
@@ -86,20 +102,12 @@
       "link": "https://github.com/wangzan101/Mika"
     },
     {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 1,
-      "active": true,
-      "link": "https://github.com/inclusionAI/ASpec"
-    },
-    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+      "link": "https://github.com/JosssphZhou/poki"
     },
     {
       "label": "Mixture of Experts",
@@ -108,6 +116,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/ZhuLinsen/LiteMoE"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/inclusionAI/ASpec"
     },
     {
       "label": "RAG",
@@ -132,22 +148,6 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/davidcitahernandez-debug/computer-use-agent-vault"
-    },
-    {
-      "label": "State Space Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 0,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.06084v1"
-    },
-    {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/zhangshuibai/molten"
     }
   ]
 }
