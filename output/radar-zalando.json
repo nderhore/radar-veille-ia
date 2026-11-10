@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -33,20 +33,12 @@
       "label": "AI Act",
       "quadrant": 0,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Sandbox Environment",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
-    },
-    {
-      "label": "Running Various Tools",
+      "label": "Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -57,15 +49,23 @@
       "label": "Ai Manus",
       "quadrant": 3,
       "ring": 2,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Running Various",
+      "quadrant": 3,
+      "ring": 2,
       "moved": 2,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Supports Running",
+      "label": "Sandbox Environment",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
@@ -73,15 +73,15 @@
       "label": "General-Purpose Ai Agent",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Ai-Manus Ai",
+      "label": "Supports Running",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
@@ -110,14 +110,6 @@
       "link": "https://github.com/JosssphZhou/poki"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/ZhuLinsen/LiteMoE"
-    },
-    {
       "label": "Speculative decoding",
       "quadrant": 1,
       "ring": 1,
@@ -126,12 +118,12 @@
       "link": "https://github.com/inclusionAI/ASpec"
     },
     {
-      "label": "RAG",
-      "quadrant": 1,
+      "label": "Mixture of Experts",
+      "quadrant": 3,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
+      "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
       "label": "Agent-to-Agent (A2A)",
@@ -140,6 +132,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/Cygnux-Labs/PCM-protocol"
+    },
+    {
+      "label": "RAG",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
       "label": "Computer use",
