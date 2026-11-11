@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,6 +30,14 @@
   ],
   "entries": [
     {
+      "label": "General-Purpose Ai Agent",
+      "quadrant": 3,
+      "ring": 1,
+      "moved": 1,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
       "label": "AI Act",
       "quadrant": 0,
       "ring": 1,
@@ -38,7 +46,7 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Various Tools",
+      "label": "Supports Running Various",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -46,15 +54,7 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Ai Manus",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
-    },
-    {
-      "label": "Running Various",
+      "label": "Running Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -70,15 +70,7 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "General-Purpose Ai Agent",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
-    },
-    {
-      "label": "Supports Running",
+      "label": "Ai Manus",
       "quadrant": 3,
       "ring": 2,
       "moved": 0,
@@ -92,6 +84,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/andrew-babo/muse4ai"
+    },
+    {
+      "label": "Ai-Manus Ai",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
     },
     {
       "label": "On-device AI",
@@ -126,20 +126,20 @@
       "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Cygnux-Labs/PCM-protocol"
-    },
-    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
+    },
+    {
+      "label": "Agent-to-Agent (A2A)",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/Cygnux-Labs/PCM-protocol"
     },
     {
       "label": "Computer use",
