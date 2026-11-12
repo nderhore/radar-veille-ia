@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -33,7 +33,7 @@
       "label": "General-Purpose Ai Agent",
       "quadrant": 3,
       "ring": 1,
-      "moved": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
@@ -49,15 +49,7 @@
       "label": "Supports Running Various",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
-    },
-    {
-      "label": "Running Various Tools",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
@@ -78,20 +70,28 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
+      "label": "Various Tools",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
+      "label": "Ai-Manus Ai",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/quyetcao/ai-manus"
+    },
+    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/andrew-babo/muse4ai"
-    },
-    {
-      "label": "Ai-Manus Ai",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
     },
     {
       "label": "On-device AI",
@@ -102,20 +102,20 @@
       "link": "https://github.com/wangzan101/Mika"
     },
     {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/huawei-csl/MACaQ"
+    },
+    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/JosssphZhou/poki"
-    },
-    {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/inclusionAI/ASpec"
     },
     {
       "label": "Mixture of Experts",
@@ -126,20 +126,20 @@
       "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/inclusionAI/ASpec"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/wanghao-SunSky/cs329z-chinese"
-    },
-    {
-      "label": "Agent-to-Agent (A2A)",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/Cygnux-Labs/PCM-protocol"
+      "link": "https://github.com/pnyn96/mindact-agent"
     },
     {
       "label": "Computer use",
@@ -147,7 +147,7 @@
       "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/davidcitahernandez-debug/computer-use-agent-vault"
+      "link": "https://github.com/agentes-chat/agentes-chat"
     }
   ]
 }
