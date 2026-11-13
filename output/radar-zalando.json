@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -46,7 +46,7 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Supports Running Various",
+      "label": "Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 0,
@@ -70,7 +70,7 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Various Tools",
+      "label": "Supports Running",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -78,10 +78,10 @@
       "link": "https://github.com/quyetcao/ai-manus"
     },
     {
-      "label": "Ai-Manus Ai",
+      "label": "Running Various",
       "quadrant": 3,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
       "link": "https://github.com/quyetcao/ai-manus"
     },
@@ -94,28 +94,20 @@
       "link": "https://github.com/andrew-babo/muse4ai"
     },
     {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/wangzan101/Mika"
-    },
-    {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/huawei-csl/MACaQ"
-    },
-    {
       "label": "Prompt injection",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/JosssphZhou/poki"
+    },
+    {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/huawei-csl/MACaQ"
     },
     {
       "label": "Mixture of Experts",
@@ -126,12 +118,12 @@
       "link": "https://github.com/ZhuLinsen/LiteMoE"
     },
     {
-      "label": "Speculative decoding",
+      "label": "On-device AI",
       "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
+      "ring": 2,
+      "moved": -1,
       "active": true,
-      "link": "https://github.com/inclusionAI/ASpec"
+      "link": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
     },
     {
       "label": "RAG",
@@ -140,6 +132,14 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/pnyn96/mindact-agent"
+    },
+    {
+      "label": "Speculative decoding",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/inclusionAI/ASpec"
     },
     {
       "label": "Computer use",
