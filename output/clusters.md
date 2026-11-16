@@ -2,85 +2,95 @@
 
 | Cluster | Termes caractéristiques | R | B | G² | Croissance | Nouveaux acteurs | Sources | Signal |
 |---|---|---|---|---|---|---|---|---|
-| 35 | ai agent, agent, ai, typescript, sdk, manus | 108 | 166 | 80.28 | ×3.21 | 97% | academic, code, community | **rupture ?** |
-| 1 | ai agents, ai, agents, hn, agent, source | 86 | 219 | 24.83 | ×1.94 | 87% | academic, code, community | **rupture ?** |
-| 27 | hn, ask hn, ask, ai, open source, open | 96 | 264 | 22.37 | ×1.8 | 94% | community | **rupture ?** |
-| 56 | mcp, server, mcp server, ai, context protocol, model context | 41 | 115 | 8.84 | ×1.77 | 97% | academic, code, community | **rupture ?** |
-| 5 | ai, anthropic, says, ai model, use ai, use | 74 | 205 | 16.75 | ×1.79 | 69% | academic, code, community, press |  |
-| 4 | coding, coding agents, agents, coding agent, agent, ai coding | 58 | 200 | 5.47 | ×1.44 | 95% | academic, code, community |  |
-| 45 | la, des, et, le, nbsp, 2026 | 11 | 26 | 3.74 | ×2.14 | 0% | academic, community, press, regulatory |  |
-| 46 | intelligence, artificial, artificial intelligence, ai, intelligence ai, framework | 36 | 134 | 2.14 | ×1.34 | 86% | academic, community |  |
-| 7 | search, agents, search agents, optimization, evidence, web | 34 | 133 | 1.4 | ×1.27 | 0% | academic, community, press |  |
-| 8 | attention, context, transformers, linear, long context, long | 40 | 162 | 1.21 | ×1.23 | 0% | academic, press |  |
-| 26 | code, software, engineering, software engineering, code generation, generation | 40 | 165 | 1.0 | ×1.21 | 78% | academic, code, community, press |  |
-| 22 | experts, open, open weight, moe, weight, mixture | 39 | 161 | 0.97 | ×1.21 | 75% | academic, code, community, press |  |
-| 57 | knowledge, continual, unlearning, learning, language models, continual learning | 30 | 131 | 0.35 | ×1.14 | 0% | academic, community |  |
-| 50 | improvement, self improvement, self, recursive, recursive self, rsi | 23 | 99 | 0.34 | ×1.16 | 0% | academic, community |  |
-| 43 | llm, user, language model, large, inference, large language | 59 | 269 | 0.3 | ×1.09 | 88% | academic, code, community |  |
-| 21 | answer, question, questions, answering, answers, language models | 38 | 170 | 0.29 | ×1.11 | 0% | academic |  |
-| 6 | action, robot, language action, vla, vision language, vision | 24 | 105 | 0.27 | ×1.14 | 0% | academic, community |  |
-| 20 | text, detection, llm, language models, generated, language model | 58 | 267 | 0.22 | ×1.08 | 67% | academic, community, press |  |
-| 9 | llm agents, llm, agents, agent, model llm, language model | 60 | 280 | 0.15 | ×1.06 | 0% | academic |  |
-| 11 | skills, skill, agent skills, agent, claude, agents | 40 | 185 | 0.13 | ×1.08 | 95% | academic, code, community |  |
-| 33 | agentic, agentic ai, ai, systems, agentic systems, framework | 44 | 209 | 0.05 | ×1.05 | 100% | academic, code, community |  |
-| 14 | rewards, reinforcement, reinforcement learning, learning, reward, rlvr | 32 | 155 | 0.01 | ×1.03 | 0% | academic |  |
-| 40 | data, training, training data, learning, synthetic, federated | 59 | 287 | 0.01 | ×1.02 | 0% | academic, code, community |  |
-| 41 | harness, harnesses, agent, agent harness, agent harnesses, agents | 27 | 130 | 0.01 | ×1.04 | 83% | academic, code, community |  |
-| 44 | end, end end, agents, data, agent, llm | 28 | 135 | 0.01 | ×1.04 | 0% | academic, community |  |
-| 15 | turn, multi turn, multi, dialogue, existing, llm | 20 | 100 | -0.0 | ×1.01 | 0% | academic |  |
-| 51 | foundation, foundation models, foundation model, eeg, data, eeg foundation | 39 | 191 | 0.0 | ×1.02 | 0% | academic, community |  |
-| 53 | kv, cache, kv cache, key value, memory, key | 27 | 134 | -0.0 | ×1.01 | 0% | academic, community |  |
-| 28 | injection, prompt injection, prompt, indirect prompt, indirect, llm | 21 | 107 | -0.02 | ×0.99 | 0% | academic, code, community, press |  |
-| 30 | neural, networks, neural networks, network, deep, neural network | 47 | 237 | -0.02 | ×0.99 | 0% | academic |  |
-| 34 | scientific, research, discovery, agents, scientific discovery, ai | 42 | 214 | -0.04 | ×0.98 | 0% | academic, community, press |  |
-| 18 | horizon, long horizon, long, agents, tasks, horizon tasks | 48 | 245 | -0.05 | ×0.97 | 0% | academic, press |  |
-| 47 | steering, language models, activation, representations, state, geometry | 66 | 335 | -0.05 | ×0.98 | 100% | academic, community |  |
-| 12 | multimodal, multimodal large, mllms, visual, video, models mllms | 39 | 201 | -0.07 | ×0.97 | 0% | academic, code, press |  |
-| 48 | retrieval, retrieval augmented, augmented, augmented generation, rag, generation | 28 | 146 | -0.08 | ×0.96 | 0% | academic |  |
-| 29 | tabular, tabular foundation, foundation, foundation models, context, tfms | 13 | 72 | -0.15 | ×0.92 | 0% | academic |  |
-| 38 | reasoning, thought, chain thought, chain, cot, test time | 38 | 206 | -0.3 | ×0.92 | 0% | academic, community |  |
-| 37 | decision, decision models, decision making, jev, making, decisions | 29 | 164 | -0.49 | ×0.88 | 0% | academic, community |  |
-| 10 | series, time series, time, forecasting, series foundation, foundation | 33 | 187 | -0.57 | ×0.88 | 0% | academic, community |  |
-| 16 | graph, graphs, knowledge, knowledge graph, knowledge graphs, node | 25 | 145 | -0.59 | ×0.86 | 0% | academic |  |
-| 0 | machine, machine learning, learning, ml, data, learning models | 34 | 194 | -0.65 | ×0.87 | 0% | academic, community |  |
-| 2 | languages, multilingual, resource, language models, low resource, english | 30 | 173 | -0.66 | ×0.87 | 0% | academic, community |  |
-| 32 | memory, long term, term, long, agent memory, agents | 39 | 237 | -1.57 | ×0.82 | 0% | academic, community |  |
-| 25 | agent, agents, computer, computer use, use, human | 52 | 310 | -1.73 | ×0.83 | 83% | academic, community |  |
-| 58 | security, vulnerability, detection, llm, based, attack | 25 | 162 | -1.75 | ×0.77 | 83% | academic, code, community |  |
-| 59 | llms, large language, models llms, language models, large, llms increasingly | 44 | 273 | -2.17 | ×0.8 | 0% | academic |  |
-| 17 | multi agent, multi, agent, agent systems, systems, agents | 53 | 326 | -2.42 | ×0.81 | 0% | academic, code, community |  |
-| 52 | distillation, teacher, student, policy, policy distillation, opd | 20 | 141 | -2.48 | ×0.71 | 0% | academic |  |
-| 24 | tuning, fine tuning, fine, lora, language models, large | 33 | 224 | -3.24 | ×0.74 | 0% | academic |  |
-| 3 | inference, flow, bayesian, generative, diffusion, time | 53 | 340 | -3.49 | ×0.77 | 80% | academic, community |  |
-| 13 | training, post, post training, language models, pre, large | 29 | 205 | -3.67 | ×0.71 | 0% | academic |  |
-| 36 | diffusion, diffusion language, language models, parallel, autoregressive, generation | 25 | 182 | -3.74 | ×0.69 | 0% | academic |  |
-| 49 | speech, audio, voice, text, audio language, asr | 25 | 192 | -4.94 | ×0.65 | 0% | academic, press |  |
-| 54 | reinforcement, reinforcement learning, learning, rl, learning rl, training | 39 | 278 | -5.21 | ×0.7 | 0% | academic |  |
-| 42 | world, real, real world, world models, world model, agents | 34 | 252 | -5.63 | ×0.67 | 0% | academic, community, press |  |
-| 31 | tool, agents, tool using, tools, tool use, agent | 25 | 204 | -6.55 | ×0.61 | 0% | academic |  |
-| 19 | quantization, bit, precision, training quantization, post training, training | 17 | 153 | -6.58 | ×0.56 | 0% | academic |  |
-| 39 | vision language, vision, vlms, models vlms, visual, language models | 33 | 258 | -7.14 | ×0.64 | 0% | academic |  |
-| 55 | safety, ai safety, ai, openai, harmful, refusal | 17 | 165 | -8.6 | ×0.52 | 0% | academic, community |  |
-| 23 | llms, models llms, large language, large, language models, llm | 52 | 401 | -10.65 | ×0.64 | 0% | academic |  |
+| 12 | ai agents, ai, agents, sdk, typescript, manus | 144 | 248 | 114.51 | ×3.27 | 91% | academic, code, community, press | **rupture ?** |
+| 29 | ask hn, ask, hn, ai, 2026, hn ai | 30 | 61 | 18.21 | ×2.79 | 0% | community | **rupture ?** |
+| 30 | hn, ai, agent, tell hn, yc, built | 70 | 219 | 16.83 | ×1.81 | 91% | community | **rupture ?** |
+| 28 | mcp, server, mcp server, context protocol, ai, model context | 41 | 110 | 14.66 | ×2.11 | 95% | academic, code, community | **rupture ?** |
+| 41 | claude, claude code, code, codex, ai, code codex | 40 | 120 | 10.76 | ×1.89 | 92% | academic, code, community, press | **rupture ?** |
+| 39 | open source, source, open, hn, ai, source ai | 38 | 123 | 8.13 | ×1.75 | 80% | academic, code, community, press | **rupture ?** |
+| 31 | ai, ai agent, agent, ai safety, safety, anthropic | 93 | 373 | 8.28 | ×1.41 | 55% | academic, code, community, press |  |
+| 46 | la, des, et, le, nbsp, 2026 | 10 | 27 | 3.49 | ×2.15 | 0% | academic, regulatory |  |
+| 4 | ai, agentic, intelligence, artificial, artificial intelligence, agentic ai | 57 | 244 | 3.35 | ×1.32 | 75% | academic, code, community, press |  |
+| 7 | open weight, weight, open, steering, activation, language models | 71 | 314 | 3.3 | ×1.28 | 74% | academic, code, community, press |  |
+| 16 | foundation, foundation models, tabular, tabular foundation, foundation model, data | 55 | 243 | 2.56 | ×1.28 | 0% | academic |  |
+| 27 | tuning, fine tuning, fine, lora, language models, large | 45 | 220 | 0.73 | ×1.16 | 0% | academic, press |  |
+| 21 | coding, coding agents, agents, coding agent, agent, ai coding | 45 | 222 | 0.65 | ×1.15 | 86% | academic, code, community |  |
+| 13 | agent, harness, harnesses, agents, task, agent harness | 52 | 260 | 0.61 | ×1.13 | 88% | academic, code, community, press |  |
+| 57 | data, training, training data, synthetic, learning, pretraining | 52 | 265 | 0.43 | ×1.11 | 50% | academic, community, press |  |
+| 54 | neural, networks, neural networks, network, neural network, deep | 45 | 232 | 0.29 | ×1.1 | 0% | academic |  |
+| 15 | code, software, security, engineering, code generation, generation | 38 | 198 | 0.19 | ×1.09 | 67% | academic, code, community, press |  |
+| 58 | detection, anomaly, anomaly detection, based, systems, intrusion | 29 | 150 | 0.17 | ×1.1 | 0% | academic |  |
+| 11 | vision language, vision, action, language action, vla, robot | 28 | 149 | 0.07 | ×1.07 | 0% | academic, press |  |
+| 18 | experts, moe, mixture experts, mixture, experts moe, expert | 18 | 97 | 0.03 | ×1.07 | 0% | academic, press |  |
+| 34 | looped, transformers, recurrent, depth, looped transformers, transformer | 19 | 104 | 0.01 | ×1.05 | 0% | academic, press |  |
+| 32 | inference, llm, llm inference, speculative, decoding, speculative decoding | 35 | 195 | 0.0 | ×1.02 | 88% | academic, code, community, press |  |
+| 33 | improvement, self improvement, recursive, self, recursive self, rsi | 18 | 100 | 0.0 | ×1.04 | 0% | academic, community |  |
+| 49 | agents, benchmark, tasks, task, bench, benchmarks | 26 | 146 | 0.0 | ×1.02 | 0% | academic, community |  |
+| 47 | multi, multi agent, agent, framework, agent framework, llm | 20 | 115 | -0.01 | ×1.0 | 0% | academic, code |  |
+| 9 | diffusion, flow, generative, diffusion models, matching, inference | 25 | 149 | -0.07 | ×0.96 | 0% | academic, community |  |
+| 20 | learning, prediction, high, representations, representation, structure | 42 | 248 | -0.08 | ×0.96 | 0% | academic, community, press |  |
+| 0 | series, time series, time, forecasting, series foundation, foundation | 32 | 193 | -0.13 | ×0.95 | 0% | academic |  |
+| 10 | vision, vision language, visual, vlms, models vlms, language models | 26 | 166 | -0.37 | ×0.9 | 0% | academic, community |  |
+| 38 | rewards, verifiable rewards, rlvr, reinforcement, reinforcement learning, learning verifiable | 16 | 107 | -0.43 | ×0.86 | 0% | academic |  |
+| 59 | kv, cache, kv cache, key value, key, value kv | 18 | 120 | -0.47 | ×0.86 | 0% | academic |  |
+| 17 | decision, decision models, jev, typed, decisions, decision making | 21 | 140 | -0.55 | ×0.86 | 0% | academic, community, press |  |
+| 42 | world, real, real world, world models, world model, agents | 40 | 257 | -0.64 | ×0.89 | 0% | academic, code, community, press |  |
+| 5 | tool, agents, tool using, llm, agent, llm agents | 34 | 225 | -0.82 | ×0.86 | 0% | academic, code |  |
+| 2 | multi agent, multi, agent, agent systems, systems, agents | 41 | 270 | -0.93 | ×0.86 | 0% | academic, code, community |  |
+| 44 | clinical, medical, patient, health, evidence, records | 23 | 165 | -1.28 | ×0.8 | 0% | academic, community |  |
+| 56 | benchmark, evaluation, benchmarks, language models, large language, large | 29 | 203 | -1.29 | ×0.82 | 0% | academic, community, press |  |
+| 26 | token, language models, text, level, tokens, large | 27 | 192 | -1.39 | ×0.8 | 0% | academic, press |  |
+| 14 | horizon, long horizon, long, agents, tasks, agent | 38 | 263 | -1.52 | ×0.82 | 0% | academic, press |  |
+| 22 | machine, machine learning, learning, ml, data, learning models | 25 | 182 | -1.57 | ×0.79 | 0% | academic |  |
+| 52 | skills, skill, agent skills, agent, agents, reusable | 25 | 182 | -1.57 | ×0.79 | 100% | academic, code, community |  |
+| 1 | answer, question, questions, answering, answers, language models | 32 | 230 | -1.81 | ×0.79 | 0% | academic, community, press |  |
+| 24 | quantization, bit, precision, training quantization, weight, low | 18 | 140 | -1.83 | ×0.74 | 0% | academic |  |
+| 40 | attention, linear, context, linear attention, heads, long context | 18 | 142 | -2.01 | ×0.73 | 0% | academic |  |
+| 37 | speech, audio, text, audio language, asr, recognition | 25 | 193 | -2.43 | ×0.74 | 0% | academic, press |  |
+| 55 | llm, llm agents, agents, model llm, language model, large language | 46 | 329 | -2.52 | ×0.79 | 0% | academic, press |  |
+| 45 | reinforcement, reinforcement learning, learning, rl, learning rl, policy | 43 | 314 | -2.8 | ×0.78 | 0% | academic |  |
+| 19 | based, llm, llm based, framework, methods, generation | 34 | 258 | -2.95 | ×0.75 | 0% | academic, community |  |
+| 36 | distillation, teacher, student, policy, policy distillation, opd | 18 | 152 | -2.98 | ×0.68 | 0% | academic |  |
+| 8 | user, agents, prompt, injection, prompt injection, users | 36 | 273 | -3.11 | ×0.75 | 83% | academic, code, community |  |
+| 43 | scientific, research, discovery, agents, scientific discovery, ai | 25 | 207 | -3.73 | ×0.69 | 0% | academic, community, press |  |
+| 35 | retrieval, retrieval augmented, augmented, augmented generation, rag, generation | 17 | 153 | -3.86 | ×0.64 | 0% | academic |  |
+| 51 | end, end end, agents, research, llm, agent | 15 | 139 | -3.88 | ×0.63 | 0% | academic, community |  |
+| 50 | memory, long term, long, term, agents, agent memory | 29 | 240 | -4.32 | ×0.69 | 0% | academic, community |  |
+| 3 | llms, models llms, large language, large, language models, llm | 90 | 633 | -4.34 | ×0.8 | 0% | academic, community |  |
+| 25 | test time, test, time, scaling, time scaling, reasoning | 14 | 139 | -4.83 | ×0.59 | 0% | academic |  |
+| 48 | inference, bayesian, posterior, gaussian, causal, optimization | 24 | 213 | -5.12 | ×0.65 | 0% | academic |  |
+| 53 | diffusion, diffusion language, language models, masked, parallel, autoregressive | 16 | 157 | -5.27 | ×0.59 | 0% | academic, community |  |
+| 6 | training, post training, post, language models, learning, large | 18 | 191 | -7.98 | ×0.54 | 0% | academic, code, press |  |
+| 23 | reasoning, multimodal, multimodal large, mllms, visual, thought | 25 | 257 | -9.93 | ×0.56 | 0% | academic, code |  |
 
 ## Exemples (clusters signalés)
 
-**Cluster 35** (ai agent, agent, ai)
-- wangzan101/Mika : Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.
-- andrew-babo/muse4ai : Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.
-- We ran AI agent swarms in Minecraft and Mindustry
-
-**Cluster 1** (ai agents, ai, agents)
+**Cluster 12** (ai agents, ai, agents)
 - DIYgod/pinky : Let AI agents use your phone, with you in the loop.
-- wanghao-SunSky/cs329z-chinese : 斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.
-- Dayjob: Tax – evaluating AI agents on 50 professional tax assignments
+- United Airlines bans AI agents from booking flights on behalf of travelers
+- berkantay/gpucanvas : Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them.
 
-**Cluster 27** (hn, ask hn, ask)
-- Show HN: Subvocal – Talk to your computer without making noise
+**Cluster 29** (ask hn, ask, hn)
 - Ask HN: What's your current AI agentic setup?
-- Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)
+- Ask HN: Who wants to be hired? (November 2026)
+- Ask HN: How did you convince family and friends to join your XMPP/Matrix server?
 
-**Cluster 56** (mcp, server, mcp server)
+**Cluster 30** (hn, ai, agent)
+- Show HN: Subvocal – Talk to your computer without making noise
+- Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)
+- Show HN: Warsaw in voxels – An interactive 3D map of the city centre
+
+**Cluster 28** (mcp, server, mcp server)
+- hitkeeen/blender-ai-mcp-addon : AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.
+- andrew-babo/muse4ai : Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.
 - JosssphZhou/poki : Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.
-- Do the math: How we took over ChatGPT accounts
-- HerdBuilderEstimate/roblox-studio-mcp : Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight
+
+**Cluster 41** (claude, claude code, code)
+- agentes-chat/agentes-chat : Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.
+- Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files
+- Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far
+
+**Cluster 39** (open source, source, open)
+- PaladinSmash84/aida-64-extreme : AI Prompt Engineering Toolkit Aida 64 Extreme, pre-configured environment for advanced LLM training and deployment in isolated local...
+- Show HN: Yogurt – Free, private, open-source alternative to Granola
+- dhruvthakur11/youtube-ai-video-editing-system : Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow
