@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -35,23 +35,15 @@
       "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "AI Act",
-      "quadrant": 0,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
-    },
-    {
-      "label": "Various Tools",
+      "label": "Supports Running Various",
       "quadrant": 3,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
       "label": "Sandbox Environment",
@@ -59,7 +51,7 @@
       "ring": 2,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
       "label": "Ai Manus",
@@ -67,23 +59,31 @@
       "ring": 2,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Supports Running",
+      "label": "Running Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Running Various",
+      "label": "AI Act",
+      "quadrant": 0,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
+    },
+    {
+      "label": "Ai--Manus Ai",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
       "active": true,
-      "link": "https://github.com/quyetcao/ai-manus"
+      "link": "https://github.com/qweqeqeqweqeqwe/ai--manus"
     },
     {
       "label": "Model Context Protocol",
@@ -91,15 +91,31 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/andrew-babo/muse4ai"
+      "link": "https://github.com/hitkeeen/blender-ai-mcp-addon"
     },
     {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 1,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/JosssphZhou/poki"
+      "link": "https://github.com/agentes-chat/agentes-chat"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 2,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": -1,
+      "active": true,
+      "link": "https://www.silasdata.com/llm-playground-inside-architectures/"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -110,20 +126,12 @@
       "link": "https://github.com/huawei-csl/MACaQ"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
+      "label": "Interpretability",
+      "quadrant": 0,
       "ring": 0,
-      "moved": 0,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/ZhuLinsen/LiteMoE"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 2,
-      "moved": -1,
-      "active": true,
-      "link": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
+      "link": "https://github.com/manuelgscom/inside-llm"
     },
     {
       "label": "RAG",
@@ -134,20 +142,12 @@
       "link": "https://github.com/pnyn96/mindact-agent"
     },
     {
-      "label": "Speculative decoding",
-      "quadrant": 1,
-      "ring": 1,
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/inclusionAI/ASpec"
-    },
-    {
-      "label": "Computer use",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/agentes-chat/agentes-chat"
+      "link": "https://github.com/JosssphZhou/poki"
     }
   ]
 }
