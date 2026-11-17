@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,7 +38,7 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Supports Running Various",
+      "label": "Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -62,7 +62,15 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Running Various Tools",
+      "label": "Running Various",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
+    },
+    {
+      "label": "Supports Running",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -78,20 +86,20 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Ai--Manus Ai",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/qweqeqeqweqeqwe/ai--manus"
-    },
-    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/hitkeeen/blender-ai-mcp-addon"
+    },
+    {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 1,
+      "active": true,
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "Computer use",
@@ -102,20 +110,12 @@
       "link": "https://github.com/agentes-chat/agentes-chat"
     },
     {
-      "label": "On-device AI",
+      "label": "Speculative decoding",
       "quadrant": 1,
-      "ring": 2,
-      "moved": 0,
+      "ring": 1,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
-    },
-    {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": -1,
-      "active": true,
-      "link": "https://www.silasdata.com/llm-playground-inside-architectures/"
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "Quantization 1-4 bits",
@@ -123,15 +123,23 @@
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/huawei-csl/MACaQ"
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "Interpretability",
       "quadrant": 0,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/manuelgscom/inside-llm"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 0,
+      "active": true,
+      "link": "https://www.silasdata.com/llm-playground-inside-architectures/"
     },
     {
       "label": "RAG",
@@ -140,14 +148,6 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/pnyn96/mindact-agent"
-    },
-    {
-      "label": "Prompt injection",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/JosssphZhou/poki"
     }
   ]
 }
