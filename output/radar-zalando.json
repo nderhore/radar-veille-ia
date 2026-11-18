@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,7 +38,7 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Various Tools",
+      "label": "Supports Running Various",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -46,10 +46,10 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Sandbox Environment",
+      "label": "Running Various Tools",
       "quadrant": 3,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
@@ -62,18 +62,10 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Running Various",
+      "label": "Sandbox Environment",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
-    },
-    {
-      "label": "Supports Running",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
@@ -86,18 +78,26 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
+      "label": "Ai--Manus2 Ai",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
+    },
+    {
       "label": "Model Context Protocol",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/hitkeeen/blender-ai-mcp-addon"
+      "link": "https://github.com/erkamyaman/rust-anything"
     },
     {
       "label": "On-device AI",
       "quadrant": 1,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
@@ -110,17 +110,17 @@
       "link": "https://github.com/agentes-chat/agentes-chat"
     },
     {
-      "label": "Speculative decoding",
+      "label": "Quantization 1-4 bits",
       "quadrant": 1,
-      "ring": 1,
-      "moved": 2,
+      "ring": 0,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Quantization 1-4 bits",
+      "label": "Speculative decoding",
       "quadrant": 1,
-      "ring": 0,
+      "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
