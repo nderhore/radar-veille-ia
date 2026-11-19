@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,7 +38,7 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Supports Running Various",
+      "label": "Running Various",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -46,7 +46,7 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Running Various Tools",
+      "label": "Various Tools",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -70,18 +70,18 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "AI Act",
-      "quadrant": 0,
-      "ring": 1,
-      "moved": 0,
+      "label": "Supports Running",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
       "active": true,
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Ai--Manus2 Ai",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 2,
+      "label": "AI Act",
+      "quadrant": 0,
+      "ring": 1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
@@ -102,28 +102,28 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Computer use",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/agentes-chat/agentes-chat"
-    },
-    {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
-    },
-    {
       "label": "Speculative decoding",
       "quadrant": 1,
       "ring": 1,
       "moved": 0,
       "active": true,
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
+    },
+    {
+      "label": "Mixture of Experts",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 0,
+      "active": true,
+      "link": "https://www.silasdata.com/llm-playground-inside-architectures/"
+    },
+    {
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/agentes-chat/agentes-chat"
     },
     {
       "label": "Interpretability",
@@ -134,12 +134,12 @@
       "link": "https://github.com/manuelgscom/inside-llm"
     },
     {
-      "label": "Mixture of Experts",
-      "quadrant": 3,
-      "ring": 2,
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://www.silasdata.com/llm-playground-inside-architectures/"
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "RAG",
