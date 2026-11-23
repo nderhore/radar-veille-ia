@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -30,31 +30,15 @@
   ],
   "entries": [
     {
-      "label": "General-Purpose Ai Agent",
-      "quadrant": 3,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
-    },
-    {
       "label": "Weight-Space Programming",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://tabbyml.github.io/weight-space-playground/"
     },
     {
-      "label": "Various Tools",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
-    },
-    {
-      "label": "Supports Running Various",
+      "label": "Ai--Manus2 Ai Manus",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -62,20 +46,36 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Ai Manus",
-      "quadrant": 3,
+      "label": "Finding Running",
+      "quadrant": 2,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Sandbox Environment",
-      "quadrant": 3,
+      "label": "Landing Software",
+      "quadrant": 2,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
-      "link": "https://github.com/topapothecarycanal/ai--manus2.0"
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
+    },
+    {
+      "label": "Desktop Experience",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
+    },
+    {
+      "label": "Github Copilot App",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
       "label": "AI Act",
@@ -110,14 +110,6 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Computer use",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/agentes-chat/agentes-chat"
-    },
-    {
       "label": "Quantization 1-4 bits",
       "quadrant": 1,
       "ring": 0,
@@ -134,20 +126,28 @@
       "link": "https://github.com/manuelgscom/inside-llm"
     },
     {
+      "label": "Computer use",
+      "quadrant": 2,
+      "ring": 1,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/w01fb0ss/PiBot"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
-      "link": "https://github.com/pnyn96/mindact-agent"
+      "link": "https://github.com/ntu0831/RAG-MCP-Server"
     },
     {
-      "label": "World Models",
+      "label": "Small Language Models",
       "quadrant": 3,
-      "ring": 2,
+      "ring": 3,
       "moved": 2,
       "active": true,
-      "link": "https://news.ycombinator.com/item?id=50542286"
+      "link": "http://arxiv.org/abs/2611.27443v1"
     }
   ]
 }
