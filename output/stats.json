@@ -1,24 +1,30 @@
 {
-  "signaux_total": 21704,
+  "signaux_total": 22014,
   "par_source": {
-    "arxiv": 18362,
-    "hackernews": 1806,
-    "github": 834,
-    "rss:TechCrunch : AI": 460,
-    "rss:Hugging Face Blog": 110,
-    "rss:MIT Technology Review : AI": 52,
-    "rss:Google DeepMind Blog": 40,
-    "rss:CNIL : Actualités": 40
+    "arxiv": 18623,
+    "hackernews": 1830,
+    "github": 844,
+    "rss:TechCrunch : AI": 470,
+    "rss:Hugging Face Blog": 111,
+    "rss:MIT Technology Review : AI": 53,
+    "rss:CNIL : Actualités": 42,
+    "rss:Google DeepMind Blog": 41
   },
   "par_axe": {
-    "KIT-1": 8709,
-    "KIT-2": 7881,
-    "KIT-3": 2780,
-    "KIT-4": 1855,
-    "hors périmètre": 479
+    "KIT-1": 8834,
+    "KIT-2": 7998,
+    "KIT-3": 2812,
+    "KIT-4": 1882,
+    "hors périmètre": 488
   },
   "verdicts": {},
   "executions": [
+    {
+      "run_at": "2026-11-24T15:39:39.229050+00:00",
+      "collected": 397,
+      "inserted": 310,
+      "errors": "[]"
+    },
     {
       "run_at": "2026-11-23T15:47:37.179326+00:00",
       "collected": 689,
@@ -72,13 +78,7 @@
       "collected": 531,
       "inserted": 412,
       "errors": "[]"
-    },
-    {
-      "run_at": "2026-11-10T13:22:01.170191+00:00",
-      "collected": 105,
-      "inserted": 62,
-      "errors": "[\"arxiv: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)\"]"
     }
   ],
-  "radars_archives": 34
+  "radars_archives": 35
 }

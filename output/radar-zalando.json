@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,7 +38,7 @@
       "link": "https://tabbyml.github.io/weight-space-playground/"
     },
     {
-      "label": "Ai--Manus2 Ai Manus",
+      "label": "Ai--Manus2 Ai",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -46,23 +46,15 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Finding Running",
-      "quadrant": 2,
-      "ring": 2,
-      "moved": 2,
-      "active": true,
-      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
-    },
-    {
       "label": "Landing Software",
       "quadrant": 2,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Desktop Experience",
+      "label": "Github Repositories",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -70,7 +62,15 @@
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Github Copilot App",
+      "label": "Github Copilot",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
+    },
+    {
+      "label": "Finding Running Steering",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -110,20 +110,20 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Quantization 1-4 bits",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
-    },
-    {
       "label": "Interpretability",
       "quadrant": 0,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/manuelgscom/inside-llm"
+    },
+    {
+      "label": "Quantization 1-4 bits",
+      "quadrant": 1,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "Computer use",
@@ -134,20 +134,20 @@
       "link": "https://github.com/w01fb0ss/PiBot"
     },
     {
+      "label": "Diffusion LLM",
+      "quadrant": 3,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://news.ycombinator.com/item?id=50470335"
+    },
+    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/ntu0831/RAG-MCP-Server"
-    },
-    {
-      "label": "Small Language Models",
-      "quadrant": 3,
-      "ring": 3,
-      "moved": 2,
-      "active": true,
-      "link": "http://arxiv.org/abs/2611.27443v1"
     }
   ]
 }
