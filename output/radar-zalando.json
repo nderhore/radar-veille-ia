@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -38,7 +38,7 @@
       "link": "https://tabbyml.github.io/weight-space-playground/"
     },
     {
-      "label": "Ai--Manus2 Ai",
+      "label": "Ai--Manus2 Ai Manus",
       "quadrant": 3,
       "ring": 2,
       "moved": 2,
@@ -46,15 +46,7 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Landing Software",
-      "quadrant": 2,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
-    },
-    {
-      "label": "Github Repositories",
+      "label": "Agent-Native Desktop",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -62,7 +54,7 @@
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Github Copilot",
+      "label": "Desktop Experience",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -70,7 +62,15 @@
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Finding Running Steering",
+      "label": "Software Work",
+      "quadrant": 2,
+      "ring": 2,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
+    },
+    {
+      "label": "Running Steering",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -92,14 +92,6 @@
       "moved": 0,
       "active": true,
       "link": "https://github.com/erkamyaman/rust-anything"
-    },
-    {
-      "label": "On-device AI",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
       "label": "Speculative decoding",
@@ -134,10 +126,18 @@
       "link": "https://github.com/w01fb0ss/PiBot"
     },
     {
+      "label": "On-device AI",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": -1,
+      "active": true,
+      "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
+    },
+    {
       "label": "Diffusion LLM",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://news.ycombinator.com/item?id=50470335"
     },
