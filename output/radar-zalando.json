@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -41,7 +41,7 @@
       "label": "Ai--Manus2 Ai Manus",
       "quadrant": 3,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
@@ -49,12 +49,12 @@
       "label": "Agent-Native Desktop",
       "quadrant": 2,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Desktop Experience",
+      "label": "Finding Running Steering",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -62,7 +62,7 @@
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Software Work",
+      "label": "Github Repositories",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -70,7 +70,7 @@
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Running Steering",
+      "label": "Landing Software Work",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -102,14 +102,6 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Interpretability",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/manuelgscom/inside-llm"
-    },
-    {
       "label": "Quantization 1-4 bits",
       "quadrant": 1,
       "ring": 0,
@@ -129,9 +121,17 @@
       "label": "On-device AI",
       "quadrant": 1,
       "ring": 1,
-      "moved": -1,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
+    },
+    {
+      "label": "Interpretability",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/manuelgscom/inside-llm"
     },
     {
       "label": "Diffusion LLM",
