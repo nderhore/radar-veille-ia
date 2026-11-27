@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "quadrants": [
     {
       "name": "Confiance & Régulation"
@@ -46,10 +46,10 @@
       "link": "https://github.com/topapothecarycanal/ai--manus2.0"
     },
     {
-      "label": "Agent-Native Desktop",
+      "label": "Agent-Native Desktop Experience",
       "quadrant": 2,
       "ring": 2,
-      "moved": 0,
+      "moved": 2,
       "active": true,
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
@@ -57,7 +57,7 @@
       "label": "Finding Running Steering",
       "quadrant": 2,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
@@ -65,12 +65,12 @@
       "label": "Github Repositories",
       "quadrant": 2,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "active": true,
       "link": "https://github.com/trackersnailgrip/GitHub-Copilot-app"
     },
     {
-      "label": "Landing Software Work",
+      "label": "Github Copilot",
       "quadrant": 2,
       "ring": 2,
       "moved": 2,
@@ -110,6 +110,14 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
+      "label": "Interpretability",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 0,
+      "active": true,
+      "link": "https://github.com/manuelgscom/inside-llm"
+    },
+    {
       "label": "Computer use",
       "quadrant": 2,
       "ring": 1,
@@ -126,28 +134,20 @@
       "link": "https://github.com/sybil-solutions/inference-optimisation-skill"
     },
     {
-      "label": "Interpretability",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "active": true,
-      "link": "https://github.com/manuelgscom/inside-llm"
-    },
-    {
-      "label": "Diffusion LLM",
-      "quadrant": 3,
-      "ring": 2,
-      "moved": 0,
-      "active": true,
-      "link": "https://news.ycombinator.com/item?id=50470335"
-    },
-    {
       "label": "RAG",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "active": true,
       "link": "https://github.com/ntu0831/RAG-MCP-Server"
+    },
+    {
+      "label": "Prompt injection",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 2,
+      "active": true,
+      "link": "https://github.com/1276486/ZERO-X-Bypass-Jailbreak"
     }
   ]
 }
